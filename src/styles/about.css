@@ -1,0 +1,56 @@
+.about-disc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about-disc p {
+    text-align: center;
+    padding: 8px;
+}
+
+.lion {
+    width: 187px;
+    height: 107px;
+}
+
+.about-disc .lion2 {
+    transform: rotateY(180deg);
+}
+
+.rankings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ranking-card {
+    width: 250px;
+    height: 200px;
+    background-color: #F4F8F6;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-headings img {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+.Ranks {
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #203A73;
+}
+
+.Rank {
+    font-size: 50px;
+    font-weight: 600;
+}

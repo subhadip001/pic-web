@@ -7,7 +7,7 @@ const Message = (props) => {
                 <h3 className='message-heading'>{props.heading}</h3>
                 <div className='message-box'>
                     <div className='message-img'>
-                        <img src={props.img} alt="" />
+                        <img className=' max-w-none w-full h-full' src={props.img} alt="" />
                     </div>
                     <div className='message-content'>
                         <h4 className='message-by'>{props.by}</h4>
