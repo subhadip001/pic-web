@@ -5,7 +5,7 @@ import thomso2 from "../assets/thomso2.png"
 import mgcl from "../assets/mgcl.png"
 function Gallery() {
   return (
-    <div className="container mx-auto max  py-2 lg:pt-12 overflow-hidden mb-20">
+    <div className="container mx-auto  py-2 lg:pt-12 overflow-hidden mb-20">
       <div className="flex flex-wrap">
         <div className="flex w-1/2 flex-wrap">
           <div className="w-full p-1 pl-0 md:p-2 md:pl-0 " >

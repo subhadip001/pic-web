@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer'
 import MessageApi from '../Apis/MessageApi'
 import Message from '../components/Message'
 import About from '../components/About'
@@ -12,11 +11,11 @@ const Home = () => {
         <>
             <div className='header h-screen relative mb-20'>
                 
-                <div className=' w-screen h-screen top-0 bgeffect z-0 '>
+                <div className=' w-full h-screen top-0 bgeffect z-0 '>
                     <Header bgOn = {false} />
                     <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
-                        <p  >श्रमं विना न किमपि साध्यम्</p>
-                        <hr className='  block h-5 w-0.5 bg-orange-600' />
+                        <p className=' text-3xl' >श्रमं विना न किमपि साध्यम्</p>
+                        <hr className='  block h-8 w-1 bg-orange-600' />
 
                     </div>
                 </div>
@@ -26,10 +25,10 @@ const Home = () => {
             <About />
             <Gallery />
             {MessageApi.map((curr, index) => {
-                return <Message key={index} heading={curr.heading} img={curr.img} by={curr.by} message={curr.message} />
+                console.log(curr.id)
+                return <Message key={index} heading={curr.heading} img={curr.img} by={curr.by} message={curr.message} target={curr.id} />
             })}
             <Recruiters />
-            <Footer />
         </>
     )
 }

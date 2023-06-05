@@ -28,8 +28,8 @@ function Dropdown(props) {
                 >
                     {props.data.map((curr,index)=>{
                         return(
-                            <NavLink key={index} className=" block border-b  border-gray-400 py-5  text-black hover:font-semibold hover:bg-gray-300 md:px-4">
-                            {curr}
+                            <NavLink to={curr.target} key={index} className=" block border-b  border-gray-400 py-5  text-black hover:font-semibold hover:bg-gray-300 md:px-4">
+                            {curr.subHeading}
                         </NavLink>
                         )
                     })}

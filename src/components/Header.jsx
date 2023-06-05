@@ -7,31 +7,31 @@ import Dropdown from './Dropdown'
 
 const about = 
     {heading:"About Us",
-    data:["Director's Message","Professor-in-charge's Message","Administration"]
+    data:[{subHeading:"Director's Message",target:"/message/director"},{subHeading:"Professor-in-charge's Message",target:"/message/professor-in-charge"},{subHeading :"Administration",target:"#"}]
 }
 const forms = {
     heading:"Forms and Procedures",
-    data:["Job Announcement Form","Summer Internship Form","Placement Procedure","Placement Policy","AIPC Guidelines 2023"]
+    data:[{subHeading: "Job Announcement Form", target:"#"},{subHeading:"Summer Internship Form",target:"#"},{subHeading:"Placement Procedure",target:"#"},{subHeading:"Placement Policy",target:"#"},{subHeading:"AIPC Guidelines 2023",target:""}]
 }
 const academics = {
     heading:"Academics",
-    data:["Departments","Programmes"]
+    data:[{subHeading:"Departments",target:"#"},{subHeading:"Programmes",target:"#"}]
 }
 const facilities ={
     heading:"Facilities",
-data :["Infrastructure","Institute Guest House","Hostels"]
+data :[{subHeading:"Infrastructure",target:"#"},{subHeading: "Institute Guest House",target:"#"},{subHeading:"Hostels",target:"#"}]
 }
 const contact ={
     heading:"Contact Us",
-    data:['Contact Details',"How To Reach"]
+    data:[{subHeading:'Contact Details',target:"#"},{subHeading:"How To Reach",target:"#"}]
 }
 
 const Header = (props) => {
   
     return (
         <>
-            <div className={`relative mb-12 ${props.bgOn ? "header":""}`}>
-                <div className={`w-screen  top-0  z-0 ${props.bgOn ? "bgeffect":""}`}>
+            <div className={` relative mb-14 z-50 ${props.bgOn ? "header":""}`}>
+                <div className={`w-full  top-0   ${props.bgOn ? "bgeffect":""}`}>
                     <div className=' w-4/5 m-auto'>
                         <div className='flex justify-between items-center'>
                             <img src={logo} width="200px" height={'53px'} alt=" pic logo" />
@@ -47,7 +47,7 @@ const Header = (props) => {
                         <hr/>
                         <div className=' text-gray-50 mt-2 flex justify-between'>
                             
-                            <NavLink to="#">Home</NavLink>
+                            <NavLink to="/">Home</NavLink>
                             <Dropdown heading={about.heading} data = {about.data}/>
                             <Dropdown heading={forms.heading} data= {forms.data}/>
                             <Dropdown heading={academics.heading} data={academics.data}/>
