@@ -1,5 +1,5 @@
 import React from 'react';
-import  video from "../assets/video.png"
+import  video from "../assets/Video.png"
 import thomso from "../assets/thomso.png"
 import thomso2 from "../assets/thomso2.png"
 import mgcl from "../assets/mgcl.png"
