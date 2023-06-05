@@ -8,12 +8,12 @@ const About = () => {
     <>
     <div className='conatiner about'>
         <h3 className='heading'>About us</h3>
-        <div className='about-disc'>
+        <div className='about-disc flex-wrap sm:flex-nowrap justify-center'>
             <img className='lion' src={lionImg} alt="" />
             <p>Indian Institute of Technology Roorkee (IIT Roorkee) is India's leading institution of higher technical and management education with an excellent track record of it's performance over the last 175 years.</p>
             <img className='lion lion2' src={lionImg} alt="" />
         </div>
-        <div className='rankings'>
+        <div className='rankings flex-wrap sm:flex-nowrap'>
         {Ranking.map((curr,index)=>{
             return <RankingCard key={index} heading={curr.heading} rank={curr.rank} />
         })}
