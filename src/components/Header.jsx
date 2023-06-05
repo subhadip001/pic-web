@@ -4,11 +4,34 @@ import iitrLogo from "../assets/images/iitrLogo.png"
 import logo from "../assets/logo.png"
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown'
-const Header = () => {
+
+const about = 
+    {heading:"About Us",
+    data:["Director's Message","Professor-in-charge's Message","Administration"]
+}
+const forms = {
+    heading:"Forms and Procedures",
+    data:["Job Announcement Form","Summer Internship Form","Placement Procedure","Placement Policy","AIPC Guidelines 2023"]
+}
+const academics = {
+    heading:"Academics",
+    data:["Departments","Programmes"]
+}
+const facilities ={
+    heading:"Facilities",
+data :["Infrastructure","Institute Guest House","Hostels"]
+}
+const contact ={
+    heading:"Contact Us",
+    data:['Contact Details',"How To Reach"]
+}
+
+const Header = (props) => {
+  
     return (
         <>
-            <div className='home relative mb-12'>
-                <div className=' absolute  w-screen h-screen top-0 bgeffect z-0 '>
+            <div className={`relative mb-12 ${props.bgOn ? "header":""}`}>
+                <div className={`w-screen  top-0  z-0 ${props.bgOn ? "bgeffect":""}`}>
                     <div className=' w-4/5 m-auto'>
                         <div className='flex justify-between items-center'>
                             <img src={logo} width="200px" height={'53px'} alt=" pic logo" />
@@ -25,20 +48,16 @@ const Header = () => {
                         <div className=' text-gray-50 mt-2 flex justify-between'>
                             
                             <NavLink to="#">Home</NavLink>
-                            <Dropdown/>
-                            <NavLink to="#">Forms and Procedures</NavLink>
-                            <NavLink to="#">Academics</NavLink>
+                            <Dropdown heading={about.heading} data = {about.data}/>
+                            <Dropdown heading={forms.heading} data= {forms.data}/>
+                            <Dropdown heading={academics.heading} data={academics.data}/>
                             <NavLink to="#">Our Recruiters</NavLink>
-                            <NavLink to="#">Facilities</NavLink>
-                            <NavLink to="#">Contact Us</NavLink>
+                            <Dropdown heading={facilities.heading} data={facilities.data}/>
+                            <Dropdown heading={contact.heading} data= {contact.data}/>
 
                         </div>
                     </div>
-                    <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
-                    <p  >श्रमं विना न किमपि साध्यम्</p>
-                    <hr className='  block h-5 w-0.5 bg-orange-600'/>
-
-                    </div>
+                    
                 </div>
 
             </div>
