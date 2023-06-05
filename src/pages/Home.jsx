@@ -6,7 +6,7 @@ import About from '../components/About'
 import '../styles/message.css'
 import Recruiters from '../components/Recruiters'
 import Header from '../components/Header'
-import Gallery from '../components/gallery'
+import Gallery from '../components/Gallery'
 const Home = () => {
     return (
         <>
