@@ -11,6 +11,7 @@ const Home = () => {
     return (
         <>
             <div className='header h-screen relative mb-20'>
+                
                 <div className=' w-screen h-screen top-0 bgeffect z-0 '>
                     <Header bgOn = {false} />
                     <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
