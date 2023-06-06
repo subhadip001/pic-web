@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Messagefull from './components/Messagefull.jsx'
+import Administration from './pages/Administration.jsx'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path="/message/:by" element={<Messagefull/>}/>
+      <Route path="/administration" element={<Administration/>}/>
     </Routes>
    <Footer/>
     </>

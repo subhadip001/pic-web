@@ -7,7 +7,7 @@ import Dropdown from './Dropdown'
 
 const about = 
     {heading:"About Us",
-    data:[{subHeading:"Director's Message",target:"/message/director"},{subHeading:"Professor-in-charge's Message",target:"/message/professor-in-charge"},{subHeading :"Administration",target:"#"}]
+    data:[{subHeading:"Director's Message",target:"/message/director"},{subHeading:"Professor-in-charge's Message",target:"/message/professor-in-charge"},{subHeading :"Administration",target:"/administration"}]
 }
 const forms = {
     heading:"Forms and Procedures",
