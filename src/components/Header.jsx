@@ -11,7 +11,7 @@ const about =
 }
 const forms = {
     heading:"Forms and Procedures",
-    data:[{subHeading: "Job Announcement Form", target:"#"},{subHeading:"Summer Internship Form",target:"#"},{subHeading:"Placement Procedure",target:"#"},{subHeading:"Placement Policy",target:"#"},{subHeading:"AIPC Guidelines 2023",target:""}]
+    data:[{subHeading: "Job Announcement Form", target:"/forms/job-announcement"},{subHeading:"Summer Internship Form",target:"/forms/summer-internship"},{subHeading:"Placement Procedure",target:"#"},{subHeading:"Placement Policy",target:"#"},{subHeading:"AIPC Guidelines 2023",target:""}]
 }
 const academics = {
     heading:"Academics",

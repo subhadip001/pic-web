@@ -5,7 +5,20 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "bg-gray": "#F4F8F6",
+                "orange": "#FF5300",
+                "PIC-Blue": "#203A73"
+
+            },
+            height: {
+                "180px": "180px"
+            },
+            width: {
+                "downloadBtn": "740px"
+            }
+        },
     },
     plugins: [],
 }
