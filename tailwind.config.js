@@ -9,15 +9,28 @@ export default {
             colors: {
                 "bg-gray": "#F4F8F6",
                 "orange": "#FF5300",
-                "PIC-Blue": "#203A73"
+                "PIC-Blue": "#203A73",
+                "PIC-heading": "#212660",
+                "PIC-light_gray": "#F4F5F8",
+                "importent": "#2A8ACB"
 
             },
             height: {
                 "180px": "180px"
             },
             width: {
-                "downloadBtn": "740px"
+                "downloadBtn": "740px",
+                "90%": "90%",
+                "200px": "200px"
+            },
+            padding: {
+                "10%": "10%",
+                "5%": "5%"
+            },
+            inset: {
+                "10%": "10%"
             }
+
         },
     },
     plugins: [],

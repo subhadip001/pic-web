@@ -11,7 +11,7 @@ const about =
 }
 const forms = {
     heading:"Forms and Procedures",
-    data:[{subHeading: "Job Announcement Form", target:"/forms/job-announcement"},{subHeading:"Summer Internship Form",target:"/forms/summer-internship"},{subHeading:"Placement Procedure",target:"#"},{subHeading:"Placement Policy",target:"#"},{subHeading:"AIPC Guidelines 2023",target:""}]
+    data:[{subHeading: "Job Announcement Form", target:"/forms/job-announcement"},{subHeading:"Summer Internship Form",target:"/forms/summer-internship"},{subHeading:"Placement Procedure",target:"/placement"},{subHeading:"Placement Policy",target:"#"},{subHeading:"AIPC Guidelines 2023",target:""}]
 }
 const academics = {
     heading:"Academics",
@@ -45,7 +45,7 @@ const Header = (props) => {
                             
                         </div>
                         <hr/>
-                        <div className=' text-gray-50 mt-2 flex justify-between'>
+                        <div className=' text-gray-50 mt-2 flex justify-between flex-wrap'>
                             
                             <NavLink to="/">Home</NavLink>
                             <Dropdown heading={about.heading} data = {about.data}/>
