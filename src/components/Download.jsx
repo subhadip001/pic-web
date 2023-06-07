@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import mgcl from "../assets/mgcl.png"
 
 const Download = (props) => {
     return (

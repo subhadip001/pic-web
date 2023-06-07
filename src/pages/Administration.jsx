@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import AdminComponent from '../components/adminComponent'
+import AdminComponent from '../components/AdminComponent'
 
 const admins = [
  [{

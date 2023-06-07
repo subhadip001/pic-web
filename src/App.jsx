@@ -5,7 +5,6 @@ import Footer from './components/Footer.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Messagefull from './components/Messagefull.jsx'
 import Administration from './pages/Administration.jsx'
-import Forms from './pages/Forms.jsx'
 import FormComponent from './components/FormComponent.jsx'
 
 const App = () => {
