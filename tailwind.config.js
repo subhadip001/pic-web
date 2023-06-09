@@ -12,7 +12,9 @@ export default {
                 "PIC-Blue": "#203A73",
                 "PIC-heading": "#212660",
                 "PIC-light_gray": "#F4F5F8",
-                "importent": "#2A8ACB"
+                "importent": "#2A8ACB",
+                "PIC-Light-grey-Text": "#999999",
+                "Department-card-bg": "#FFEEE5"
 
             },
             height: {

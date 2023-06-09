@@ -15,7 +15,7 @@ const forms = {
 }
 const academics = {
     heading:"Academics",
-    data:[{subHeading:"Departments",target:"#"},{subHeading:"Programmes",target:"#"}]
+    data:[{subHeading:"Departments",target:"/departments"},{subHeading:"Programmes",target:"/programs"}]
 }
 const facilities ={
     heading:"Facilities",
