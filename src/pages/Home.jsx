@@ -25,7 +25,6 @@ const Home = () => {
             <About />
             <Gallery />
             {MessageApi.map((curr, index) => {
-                console.log(curr.id)
                 return <Message key={index} heading={curr.heading} img={curr.img} by={curr.by} message={curr.message} target={curr.id} />
             })}
             <Recruiters />

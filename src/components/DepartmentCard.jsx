@@ -1,7 +1,6 @@
 import React from 'react'
 
 const DepartmentCard = (props) => {
-    console.log(props.cardData.img)
   return (
     <div className=' bg-Department-card-bg p-4 w-56 h-40 flex flex-col justify-center items-center'>
         <div className=' w-16 h-16 p-1'>

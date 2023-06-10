@@ -27,7 +27,12 @@ export default {
             },
             maxWidth: {
                 "200px": "200px",
-                "300px": "300px"
+                "300px": "300px",
+                "80px": "80px"
+            },
+            maxHeight: {
+                "40px": "40px"
+
             },
             padding: {
                 "10%": "10%",
