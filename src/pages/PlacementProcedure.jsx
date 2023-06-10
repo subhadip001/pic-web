@@ -65,9 +65,15 @@ const PlacementProcedure = () => {
                 onClick={() => setActiveStep(index)}
               >
                 <h3 className=" text-2xl font-bold text-PIC-heading font-sans p-2 whitespace-nowrap">Phase {step}</h3>
-                <div className={`w-6 h-6 flex items-center justify-center bg-white relative rounded-full border-2 ${activeStep === index ? 'border-orange' : 'border-PIC-heading'} `}>
+                <div className=" relative">
+                     <div className={`w-6 h-6 flex items-center justify-center bg-white relative rounded-full border-2 ${activeStep === index ? 'border-orange' : 'border-PIC-heading'} `}>
                   <span className={` w-3 h-3 ${activeStep === index ? 'bg-orange' : 'bg-PIC-heading'}  rounded-full `} />
                 </div>
+        <span className={` w-6 h-6  ${activeStep === index ?'visible':"invisible"}  bg-PIC-light_gray  rotate-45 absolute -bottom-7 `}/>
+
+                </div>
+             
+
 
               </div>
 

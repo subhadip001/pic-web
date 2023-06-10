@@ -9,6 +9,7 @@ import FormComponent from './components/FormComponent.jsx'
 import PlacementProcedure from './pages/PlacementProcedure.jsx'
 import Programs from './pages/Programs.jsx'
 import Departments from './pages/Departments.jsx'
+import QuickLink from './components/QuickLink.jsx'
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/programs' element={<Programs/>}/>
       <Route path='/departments' element={<Departments/>}/>
     </Routes>
+   <QuickLink/>
    <Footer/>
     </>
   )

@@ -14,7 +14,6 @@ const PlacementComponent = (props) => {
   return (
     <>
    
-        {/* <span className=' w-8 h-8 block bg-PIC-light_gray  rotate-90 absolute -top-4 left-10% '/> */}
        <ol className=' text-justify'>
         {props.phase.content.split('\n\n').map((para, index) => {
           return (

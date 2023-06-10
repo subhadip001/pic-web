@@ -8,31 +8,42 @@ function Dropdown(props) {
         setIsDropdownOpen(!isDropdownOpen);
     };
 
+    const closeDropdown = () => {
+        setIsDropdownOpen(false);
+    };
+
+    const handleItemClick = (event) => {
+        event.stopPropagation();
+        closeDropdown();
+    };
+
     return (
-        <div className=" inline-flex items-center justify-center" >
-            <div className="group relative cursor-pointer flex justify-center ">
-                <div className=" inline-flex items-center justify-between">
+        <div className="inline-flex items-center justify-center">
+            <div className="group relative cursor-pointer flex justify-center">
+                <div className="inline-flex items-center justify-between">
                     <NavLink 
-                        className="menu-hover  h-8 text-base font-medium text-white lg:mx-4"
-                        onClick={toggleDropdown} onBlur={toggleDropdown}
+                        className="menu-hover h-8 text-base font-medium text-white lg:mx-4"
+                        onClick={toggleDropdown} onMouseOut={closeDropdown}
                     >
                         {props.heading}
                     </NavLink>
-                    <span>
-                    </span>
+                    <span></span>
                 </div>
                 <div
-                    className={`${isDropdownOpen ? 'visible' : 'invisible'
-                        } absolute z-50 flex  whitespace-nowrap top-8 text-center flex-col navbg shadow-xl group-hover:visible`}
-                    onClick={toggleDropdown}
+                    className={`${isDropdownOpen ? 'block' : 'hidden'
+                        } absolute z-50 whitespace-nowrap top-8 text-center navbg shadow-xl group-hover:block`}
+                    onMouseLeave={closeDropdown}
                 >
-                    {props.data.map((curr,index)=>{
-                        return(
-                            <NavLink to={curr.target} key={index} className=" block border-b  border-gray-400 py-5  text-black hover:font-semibold hover:bg-gray-300 md:px-4">
+                    {props.data.map((curr, index) => (
+                        <NavLink
+                            to={curr.target}
+                            key={index}
+                            className="block border-b border-gray-400 py-5 text-black hover:font-semibold hover:bg-gray-300 md:px-4"
+                            onClick={handleItemClick}
+                        >
                             {curr.subHeading}
                         </NavLink>
-                        )
-                    })}
+                    ))}
                 </div>
             </div>
         </div>

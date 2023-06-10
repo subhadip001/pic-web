@@ -1,7 +1,6 @@
 import React from 'react'
-import home from "../assets/images/home.png"
-import iitrLogo from "../assets/images/iitrLogo.png"
-import logo from "../assets/logo.png"
+import iitrLogo from "../assets/iitrLogo.svg"
+import logo from "../assets/logo.svg"
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown'
 
@@ -33,14 +32,12 @@ const Header = (props) => {
             <div className={` relative mb-14 z-50 ${props.bgOn ? "header":""}`}>
                 <div className={`w-full  top-0   ${props.bgOn ? "bgeffect":""}`}>
                     <div className=' w-4/5 m-auto'>
-                        <div className='flex justify-between items-center'>
-                            <img src={logo} width="200px" height={'53px'} alt=" pic logo" />
-                            <div className='flex justify-center items-center w-80 h-20 '>
-                              <img src={iitrLogo} width={'53px'} alt="iitr logo" /> 
-                              <div className=' whitespace-nowrap ' >
-                                <p className=' text-white text-justify'>भारतीय प्रौद्योगिकी संस्थान रुड़की</p>
-                                <p className=' text-white text-justify text-xs'>Indian Institute of Technology Roorkee</p>
-                                </div> 
+                        <div className='flex justify-between gap-5 py-5 items-center'>
+                            <div className='flex-1 object-contain'>
+                            <img src={logo} className='w-full h-auto max-w-200px' alt=" pic logo" />
+                            </div>
+                            <div className='flex-1 object-contain'>
+                              <img src={iitrLogo} className='w-full h-auto  max-w-300px ml-auto' alt="iitr logo" /> 
                             </div>
                             
                         </div>

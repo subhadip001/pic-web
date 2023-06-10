@@ -15,7 +15,7 @@ const Home = () => {
                     <Header bgOn = {false} />
                     <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
                         <p className=' text-3xl' >श्रमं विना न किमपि साध्यम्</p>
-                        <hr className='  block h-8 w-1 bg-orange-600' />
+                        <hr className='  block h-8 w-1 bg-orange' />
 
                     </div>
                 </div>
