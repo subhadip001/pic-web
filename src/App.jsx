@@ -10,6 +10,7 @@ import PlacementProcedure from './pages/PlacementProcedure.jsx'
 import Programs from './pages/Programs.jsx'
 import Departments from './pages/Departments.jsx'
 import QuickLink from './components/QuickLink.jsx'
+import Recuiters from './pages/Recuiters.jsx'
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/placement' element={<PlacementProcedure/>}/>
       <Route path='/programs' element={<Programs/>}/>
       <Route path='/departments' element={<Departments/>}/>
+      <Route path='/recruiters' element={<Recuiters/>}/>
     </Routes>
    <QuickLink/>
    <Footer/>

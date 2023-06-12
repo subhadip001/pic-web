@@ -18,8 +18,8 @@ function Dropdown(props) {
     };
 
     return (
-        <div className="inline-flex items-center justify-center">
-            <div className="group relative cursor-pointer flex justify-center">
+        <div className="block sm:inline-flex items-center justify-center">
+            <div className="group relative cursor-pointer sm:flex justify-center">
                 <div className="inline-flex items-center justify-between">
                     <NavLink 
                         className="menu-hover h-8 text-base font-medium text-white lg:mx-4"
@@ -31,7 +31,7 @@ function Dropdown(props) {
                 </div>
                 <div
                     className={`${isDropdownOpen ? 'block' : 'hidden'
-                        } absolute z-50 whitespace-nowrap top-8 text-center navbg shadow-xl group-hover:block`}
+                        } sm:absolute z-50 whitespace-nowrap top-8 text-center navbg shadow-xl group-hover:block`}
                     onMouseLeave={closeDropdown}
                 >
                     {props.data.map((curr, index) => (

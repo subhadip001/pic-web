@@ -36,6 +36,16 @@
     /* overflow: hidden; */
 }
 
+.grid {
+    display: grid;
+}
+
+.column-content {
+    column-count: 2;
+    column-gap: 2rem;
+    /* Adjust the gap between columns as needed */
+}
+
 .bgeffect {
     background-color: #00000078;
 }
