@@ -18,7 +18,8 @@ export default {
 
             },
             height: {
-                "180px": "180px"
+                "180px": "180px",
+                "56vw": "56vw"
             },
             width: {
                 "downloadBtn": "740px",
@@ -28,11 +29,18 @@ export default {
             maxWidth: {
                 "200px": "200px",
                 "300px": "300px",
-                "80px": "80px"
+                "80px": "80px",
+                "500px": "500px",
+                "600px": "600px"
             },
             maxHeight: {
-                "40px": "40px"
+                "40px": "40px",
+                "0.56vw": "0.56vw"
 
+            },
+            minWidth: {
+                '300px': "300px",
+                '500px': "500px"
             },
             padding: {
                 "10%": "10%",

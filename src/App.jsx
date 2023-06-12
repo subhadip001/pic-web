@@ -11,6 +11,12 @@ import Programs from './pages/Programs.jsx'
 import Departments from './pages/Departments.jsx'
 import QuickLink from './components/QuickLink.jsx'
 import Recuiters from './pages/Recuiters.jsx'
+import Infrastructure from './pages/Infrastructure.jsx'
+import GuestHouse from './pages/GuestHouse.jsx'
+import Hotels from './pages/Hotels.jsx'
+import ContactDetails from './pages/ContactDetails.jsx'
+import Faq from './pages/Faq.jsx'
+import HowToReach from './pages/HowToReach.jsx'
 const App = () => {
   return (
     <>
@@ -23,6 +29,12 @@ const App = () => {
       <Route path='/programs' element={<Programs/>}/>
       <Route path='/departments' element={<Departments/>}/>
       <Route path='/recruiters' element={<Recuiters/>}/>
+      <Route path='/Infrastructure' element={<Infrastructure/>}/>
+      <Route path='/guest-house' element={<GuestHouse/>}/>
+      <Route path='/hotels' element={<Hotels/>}/>
+      <Route path='/contact-details' element={<ContactDetails/>}/>
+      <Route path='/faq' element={<Faq/>}/>
+      <Route path='/how-to-reach' element={<HowToReach/>}/>
     </Routes>
    <QuickLink/>
    <Footer/>

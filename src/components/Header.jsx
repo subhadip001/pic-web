@@ -18,11 +18,11 @@ const academics = {
 }
 const facilities ={
     heading:"Facilities",
-data :[{subHeading:"Infrastructure",target:"#"},{subHeading: "Institute Guest House",target:"#"},{subHeading:"Hostels",target:"#"}]
+data :[{subHeading:"Infrastructure",target:"/Infrastructure"},{subHeading: "Institute Guest House",target:"/guest-house"},{subHeading:"Hotels",target:"/hotels"}]
 }
 const contact ={
     heading:"Contact Us",
-    data:[{subHeading:'Contact Details',target:"#"},{subHeading:"How To Reach",target:"#"}]
+    data:[{subHeading:'Contact Details',target:"/contact-details"},{subHeading:"How To Reach",target:"/how-to-reach"},{subHeading:"Frequently Asked Questions",target:"/faq"}]
 }
 
 const Header = (props) => {
@@ -117,11 +117,11 @@ const Header = (props) => {
       {/* Mobile menu */}
       <div className={`${isMobileMenuOpen ? 'block' : 'hidden h-0'} sm:hidden transition-all`} id="mobile-menu">
         <div className=" text-gray-50 px-2 pt-2 pb-3 space-y-1 backdrop-blur-sm rounded-lg">
-          <NavLink  to="/" activeClassName="bg-gray-900 text-white" className='block' exact>Home</NavLink>
+          <NavLink  to="/"  className='block' >Home</NavLink>
           <Dropdown heading={about.heading} data={about.data} />
           <Dropdown heading={forms.heading} data={forms.data} />
           <Dropdown heading={academics.heading} data={academics.data} />
-          <NavLink  to="/recruiters" className='block'  activeClassName="bg-gray-900 text-white">Our Recruiters </NavLink>
+          <NavLink  to="/recruiters" className='block'  >Our Recruiters </NavLink>
           <Dropdown heading={facilities.heading} data={facilities.data} />
           <Dropdown heading={contact.heading} data={contact.data} />
         </div>
