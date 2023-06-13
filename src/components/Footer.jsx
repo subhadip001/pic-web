@@ -38,7 +38,7 @@ const Footer = () => {
                 <hr />
                 <div className='copy-right'>
                     <p className='copy-right-p'>Copyright © 2023 Placement and Internship Cell, IITR. All rights reserved.</p>
-                    <p>Designed by Atharva Duraphe, Kavin Madheswaran, S. Rabiudeen and Sheetal Narkhede    |    Developed by Cypher Website development</p>
+                    <p>Designed by Atharva Duraphe, Kavin Madheswaran, S. Rabiudeen and Sheetal Narkhede    |    Developed by Cypher Tech</p>
                 </div>
             </div>
         </>
