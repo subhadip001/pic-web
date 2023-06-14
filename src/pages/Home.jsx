@@ -9,13 +9,16 @@ import Gallery from '../components/Gallery'
 const Home = () => {
     return (
         <>
-            <div className='header h-screen relative mb-20'>
+            <div className='header  relative mb-20'>
                 
-                <div className=' w-full h-screen top-0 bgeffect z-0 '>
+                <div className=' w-full h-h-screen+80px top-0 bgeffect z-0 '>
                     <Header bgOn = {false} />
                     <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
                         <p className=' text-3xl' >श्रमं विना न किमपि साध्यम्</p>
-                        <hr className='  block h-8 w-1 bg-orange' />
+                        <div className=' h-10 rotate-180'>
+                          <hr className='  block  w-1 bg-orange animate-reverse-height ' />  
+                        </div>
+                        
 
                     </div>
                 </div>

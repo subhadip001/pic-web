@@ -59,13 +59,13 @@ const Header = (props) => {
                         </div> */}
                       
       
-        <div className=" text-gray-50 mt-2 flex justify-between w-full flex-row-reverse">
+        <div className=" text-gray-50 mt-5 flex justify-between w-full flex-row-reverse">
             <div className="hidden  sm:flex justify-between items-center w-full">
-            <NavLink to="/" className="">Home</NavLink>
+            <NavLink to="/" className=" h-10">Home</NavLink>
               <Dropdown heading={about.heading} data={about.data} />
               <Dropdown heading={forms.heading} data={forms.data} />
               <Dropdown heading={academics.heading} data={academics.data} />
-              <NavLink to="/recruiters">Our Recruiters </NavLink>
+              <NavLink to="/recruiters" className='h-10'>Our Recruiters </NavLink>
               <Dropdown heading={facilities.heading} data={facilities.data} />
               <Dropdown heading={contact.heading} data={contact.data} />
             </div>

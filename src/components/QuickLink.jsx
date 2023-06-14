@@ -45,15 +45,15 @@ function QuickLink() {
 
     return (
 
-        <div className="group fixed top-1/2 right-0 -translate-y-1/2 z-50  cursor-pointer flex">
+        <div className="group fixed top-1/2 right-0 -translate-y-1/2 z-50  cursor-pointer flex ">
 
             <div className="menu-hover font-medium flex  justify-center relative  "
                 onClick={toggleDropdown} >
                 <div className='flex items-center'>
-                    {!isDropdownOpen && <svg width="18" height="54" viewBox="0 0 18 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    {!isDropdownOpen && <svg width="23" height="61" viewBox="0 0 18 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-1.3332e-06 27L17.25 53.4138L17.25 0.586226L-1.3332e-06 27Z" fill="#FF5300" />
                     </svg>}
-                    <div className=' rotate-180 text-xl py-6 px-3 bg-white border-2 border-black whitespace-nowrap rounded-r-xl  z-40' style={{ textOrientation: "mixed", writingMode: "vertical-lr" }}>Quick Links</div>
+                    <div className=' rotate-180 text-center py-6 px-3 w-16 h-56 text-3xl bg-white-transparent  border-black whitespace-nowrap rounded-r-xl  z-40' style={{ textOrientation: "mixed", writingMode: "vertical-lr" }}>Quick Links</div>
                 </div>
             </div>
 

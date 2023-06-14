@@ -1,12 +1,12 @@
-import nirf from '../assets/images/nirf.png'
-import the from '../assets/images/the.png'
-import WUR from '../assets/images/WUR.png'
+import nirf from '../assets/images/nirf.svg'
+import the from '../assets/images/the.svg'
+import WUR from '../assets/images/wru.svg'
 
 const Ranking = [{
         Id: 1,
         name: "Nirf",
         heading: nirf,
-        rank: 6
+        rank: 8
     },
     {
         Id: 2,
