@@ -53,6 +53,9 @@ export default {
                 "10%": "10%",
                 "1px": "1px"
             },
+            borderWidth: {
+                "1px": "1px"
+            },
             fontSize: {
                 '1.5xl': "22px"
             },

@@ -117,11 +117,11 @@ const Header = (props) => {
       {/* Mobile menu */}
       <div className={`${isMobileMenuOpen ? 'block' : 'hidden h-0'} sm:hidden transition-all`} id="mobile-menu">
         <div className=" text-gray-50 px-2 pt-2 pb-3 space-y-1 backdrop-blur-sm rounded-lg">
-          <NavLink  to="/"  className='block' >Home</NavLink>
+          <NavLink  to="/"  className='block h-10' >Home</NavLink>
           <Dropdown heading={about.heading} data={about.data} />
           <Dropdown heading={forms.heading} data={forms.data} />
           <Dropdown heading={academics.heading} data={academics.data} />
-          <NavLink  to="/recruiters" className='block'  >Our Recruiters </NavLink>
+          <NavLink  to="/recruiters" className='block h-10'  >Our Recruiters </NavLink>
           <Dropdown heading={facilities.heading} data={facilities.data} />
           <Dropdown heading={contact.heading} data={contact.data} />
         </div>

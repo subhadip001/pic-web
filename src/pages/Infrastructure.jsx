@@ -59,7 +59,7 @@ const Infrastructure = () => {
         </div>
         <div className=" grid grid-cols-1 sm:grid-cols-5 gap-4">
           {cardContent.map((curr, index) => (
-            <div key={index} className="bg-Department-card-bg rounded-xl p-4 max-w-300px h-40 flex flex-col justify-center items-center">
+            <div key={index} className="bg-Department-card-bg rounded-xl p-4  h-40 flex flex-col justify-center items-center">
               <h4 className="text-orange font-bold mb-3">{curr.heading}</h4>
               <p className="text-sm text-center">{curr.text}</p>
             </div>
