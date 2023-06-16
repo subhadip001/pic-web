@@ -22,12 +22,14 @@ export default {
                 "180px": "180px",
                 "56vw": "56vw",
                 "1.1vh": "110vh",
-                "h-screen+80px": "calc(100vh + 80px)"
+                "h-screen+80px": "calc(100vh + 80px)",
+                "132px": "132px"
             },
             width: {
                 "downloadBtn": "740px",
                 "90%": "90%",
-                "200px": "200px"
+                "200px": "200px",
+                "132px": "132px"
             },
             maxWidth: {
                 "200px": "200px",
@@ -61,12 +63,22 @@ export default {
             },
             animation: {
                 'reverse-height': 'reverse-height 3s ease-in-out infinite',
+                marquee: 'marquee 70s linear infinite',
+                marquee2: 'marquee2 70s linear infinite',
             },
             keyframes: {
                 'reverse-height': {
                     '0%, 100%': { height: '0' },
                     '50%': { height: '40px' },
                 },
+                marquee: {
+                    'from': { transform: 'translateX(0%)' },
+                    'to': { transform: 'translateX(-100%)' },
+                },
+                marquee2: {
+                    '0%': { transform: 'translateX(100%)' },
+                    '100%': { transform: 'translateX(0%)' },
+                }
             },
 
         },
