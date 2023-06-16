@@ -2,7 +2,7 @@ import images from "../assets/images/Recruiters";
 
 export default function Recruiters() {
   return (
-    <div className="bg-white py-8 mb-20">
+    <div className="bg-white py-8 mb-10">
       <h2 className="text-center text-lg font-semibold leading-8 heading">
         Our Recruiters
       </h2>
