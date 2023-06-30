@@ -52,7 +52,7 @@ const Infrastructure = () => {
     <>
       <Header bgOn={true} />
       <h3 className="heading">Infrastructure</h3>
-      <div className="w-4/5 mx-auto relative mb-10 text-sm text-justify sm:text-xl py-4 font-sans">
+      <div className="w-4/5 mx-auto max-w-screen-xl relative mb-10 text-sm text-justify sm:text-xl py-4 font-sans">
         {/* <img src={infra1} alt=" infrastructure image 1  " className='mb-10' /> */}
         <div className=" mb-4" ref={carouselContainerRef}>
           <Carousel images={images} interval={3000} />

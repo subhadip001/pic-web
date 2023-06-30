@@ -6,7 +6,7 @@ const Message = (props) => {
         <>
             <div className='message-conatiner'>
                 <h3 className='heading'>{props.heading}</h3>
-                <div className='message-box'>
+                <div className='message-box mx-auto'>
                     <div className='message-img object-cover'>
                         <img className=' max-w-none w-full h-full' src={props.img} alt="" />
                     </div>

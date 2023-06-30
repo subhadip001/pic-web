@@ -30,7 +30,7 @@ const GuestHouse = () => {
     <>
     <Header bgOn={true}/>
 <h3 className='heading'>Institute Guest House</h3>
-<dir className="w-4/5 mx-auto  mb-10 text-sm text-justify sm:text-xl py-4 font-sans">
+<dir className="w-4/5 mx-auto  max-w-screen-xl mb-10 text-sm text-justify sm:text-xl py-4 font-sans">
 {/* <img src={guestHouse} alt="infrastructure image" className='object-contain mb-10' /> */}
 <div className=' sm:mb-5'>
   <Carousel images={images} interval={3000} />  

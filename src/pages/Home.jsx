@@ -18,8 +18,6 @@ const Home = () => {
                         <div className=' h-10 rotate-180'>
                           <hr className='  block  w-1 bg-orange animate-reverse-height ' />  
                         </div>
-                        
-
                     </div>
                 </div>
 

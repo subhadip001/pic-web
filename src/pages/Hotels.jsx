@@ -8,7 +8,7 @@ const Hotels = () => {
     <>
     <Header bgOn={true}/>
 <h3 className='heading'>Hotels</h3>
-<dir className="w-4/5 mx-auto  mb-10 text-sm text-justify sm:text-xl py-4 font-sans">
+<dir className="w-4/5 mx-auto  mb-10 max-w-screen-xl text-sm text-justify sm:text-xl py-4 font-sans">
 <img src={hotel} alt="infrastructure image" className='object-contain mb-10' />
 <Download  downloadLink={""} heading="List of Hotels in Roorkee and Haridwar" className="text-sm" />
 
