@@ -11,10 +11,10 @@ const Home = () => {
         <>
             <div className='header  relative mb-20'>
                 
-                <div className=' w-full h-h-screen+80px top-0 bgeffect z-0 '>
+                <div className=' w-full h-screen top-0 bgeffect z-0 '>
                     <Header bgOn = {false} />
                     <div className='absolute bottom-0 flex justify-center flex-col items-center w-full text-white font-bold tracking-wider'>
-                        <p className=' text-3xl' >श्रमं विना न किमपि साध्यम्</p>
+                        <p className=' text-2xl' >श्रमं विना न किमपि साध्यम्</p>
                         <div className=' h-10 rotate-180'>
                           <hr className='  block  w-1 bg-orange animate-reverse-height ' />  
                         </div>
@@ -25,9 +25,15 @@ const Home = () => {
 
             <About />
             <Gallery />
-            {MessageApi.map((curr, index) => {
+            <div className=' flex justify-center bg-bg-gray'>
+            <div className=' flex w-[80%] gap-5 py-12'>
+                 {MessageApi.map((curr, index) => {
                 return <Message key={index} heading={curr.heading} img={curr.img} by={curr.by} message={curr.message} target={curr.id} />
-            })}
+            })}     
+            </div>
+           
+            </div>
+           
             <Recruiters />
         </>
     )

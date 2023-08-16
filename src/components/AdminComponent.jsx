@@ -1,28 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const AdminComponent = (props) => {
+const AdminComponent = ({name, position,institute}) => {
   return (
     <>
-      <div className=' w-4/5 px-8 py-10  mb-6 grid grid-cols-1 sm:grid-cols-3  bg-bg-gray mx-auto'>
-        {
-          props.data.map((curr,index)=>{
-            let i = (index+1)%3
-            console.log(i)
-            return(
-              <div key={index} className={` my-3 ${(i===1)?'sm:mr-auto':(i===2)?'sm:mx-auto':'sm:ml-auto'}`}>
-              <h4 className=' text-orange  mb-0 text-xl font-bold w-fit'>{curr.name}</h4>
-              <p className='  text-sm w-fit'>{curr.position}</p>
-              <p className='  text-sm w-fit'>{curr.institute}</p>
-                
-
-            </div>
-            )
-          })
-        }
-       
+      <div
+        className={` text-center bg-bg-gray w-[400px] h-[150px] flex flex-col justify-center items-center rounded-xl`}
+      >
+        <h4 className=" text-orange text-center  mb-0 text-xl font-bold w-fit">
+          {name}
+        </h4>
+        <p className=" text-center text-sm w-fit">{position}</p>
+        <p className=" text-center text-sm w-fit">{institute}</p>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AdminComponent
+export default AdminComponent;

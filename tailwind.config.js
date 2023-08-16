@@ -61,6 +61,12 @@ export default {
             fontSize: {
                 '1.5xl': "22px"
             },
+            scale:{
+                '25':'0.25',
+                '50':'0.5',
+                '80':'0.8',
+                '90':'0.9'
+            },
             animation: {
                 'reverse-height': 'reverse-height 3s ease-in-out infinite',
                 marquee: 'marquee 70s linear infinite',

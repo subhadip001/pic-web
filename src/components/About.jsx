@@ -13,7 +13,7 @@ const About = () => {
             <p className=''>Indian Institute of Technology Roorkee (IIT Roorkee) is India's leading institution of higher technical and management education with an excellent track record of it's performance over the last <span className=' text-orange font-bold'>175</span>  years.</p>
             <img className='lion lion2' src={lionImg} alt="" />
         </div>
-        <div className='rankings flex-wrap sm:flex-nowrap'>
+        <div className='rankings flex-wrap'>
         {Ranking.map((curr,index)=>{
             return <RankingCard key={index} heading={curr.heading} rank={curr.rank} />
         })}

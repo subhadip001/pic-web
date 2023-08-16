@@ -1,0 +1,23 @@
+.administration{
+  transform: scale(1);
+}
+@media screen and (max-width: 1200px) {
+  .administration{
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 600px) {
+  .administration{
+    transform: scale(0.5);
+  }
+}
+@media screen and (max-width: 400px) {
+  .administration{
+    transform: scale(0.3);
+  }
+}
+@media screen and (max-width: 200px) {
+  .administration{
+    transform: scale(0.1);
+  }
+}

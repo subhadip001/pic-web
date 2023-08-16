@@ -6,6 +6,18 @@ const Ranking = [{
         Id: 1,
         name: "Nirf",
         heading: nirf,
+        rank: 1
+    },
+    {
+        Id: 1,
+        name: "Nirf",
+        heading: nirf,
+        rank: 5
+    },
+    {
+        Id: 1,
+        name: "Nirf",
+        heading: nirf,
         rank: 8
     },
     {

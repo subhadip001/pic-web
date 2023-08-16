@@ -3,6 +3,7 @@ import iitrLogo from "../assets/iitrLogo.svg"
 import logo from "../assets/logo.svg"
 import { NavLink } from 'react-router-dom'
 import Dropdown from './Dropdown'
+import g2 from "../assets/images/g2.svg"
 
 const about = 
     {heading:"About Us",
@@ -40,8 +41,9 @@ const Header = (props) => {
                             <div className='flex-1 object-contain'>
                             <img src={logo} className='w-full h-auto max-w-200px' alt=" pic logo" />
                             </div>
-                            <div className='flex-1 object-contain'>
-                              <img src={iitrLogo} className='w-full h-auto  max-w-300px ml-auto' alt="iitr logo" /> 
+                            <div className='flex-1 flex object-contain flex-row-reverse'>
+                              <img src={iitrLogo} className='' alt="iitr logo" /> 
+                            <img src={g2} className='' alt="g2 logo" />
                             </div>
                             
                         </div>

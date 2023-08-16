@@ -1,10 +1,4 @@
-.message-conatiner {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    /* max-width: 1080px; */
-}
+
 
 .message-conatiner .message-heading {
     /* font-family: 'Open Sans'; */
@@ -14,26 +8,6 @@
     font-size: 24px;
     font-weight: 700;
 }
-
-.message-box {
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
-    border-radius: 20px;
-    max-width: 1200px;
-    overflow: hidden;
-}
-
-.message-img {
-    background-color: #ECEDE7;
-}
-
-.message-img img {
-    /* width: calc(450px - 10vw);
-     */
-    width: 450px;
-}
-
 .message-content {
     background: #F4F8F6;
     /* padding: 20px; */
