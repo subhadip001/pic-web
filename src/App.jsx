@@ -17,6 +17,8 @@ import Hotels from "./pages/Hotels.jsx";
 import ContactDetails from "./pages/ContactDetails.jsx";
 import Faq from "./pages/Faq.jsx";
 import HowToReach from "./pages/HowToReach.jsx";
+import PlacementPolicy from "./components/PlacementPolicy.jsx";
+import AipcGuidlines from "./components/AipcGuidlines.jsx";
 const App = () => {
   return (
     <>
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/message/:by" element={<Messagefull />} />
         <Route path="/administration" element={<Administration />} />
         <Route path="/forms/:id" element={<FormComponent />} />
+        <Route path="/placement-policy" element={<PlacementPolicy />} />
+        <Route path="/aipc-guidlines" element={<AipcGuidlines />} />
         <Route path="/placement" element={<PlacementProcedure />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/departments" element={<Departments />} />

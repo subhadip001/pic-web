@@ -3,7 +3,6 @@ import Header from '../components/Header'
 import gh1 from '../assets/images/gh1.webp'
 import gh2 from '../assets/images/gh2.webp'
 import gh3 from '../assets/images/gh3.webp'
-import gh4 from '../assets/images/gh4.webp'
 import Carousel from '../components/Carousel'
 
 const GuestHouseCard = [
@@ -23,7 +22,7 @@ const GuestHouseCard = [
 
  
 ]
-const images = [ gh1,gh2,gh3,gh4]
+const images = [ gh1,gh2,gh3]
 
 const GuestHouse = () => {
   return (
@@ -44,7 +43,7 @@ const GuestHouse = () => {
 </div>
 })} 
 </div>
-<p className='w-full mt-3 font-semibold' >For further details, kindly visit <a href="https://ghbooking.iitr.ac.in/">https://ghbooking.iitr.ac.in/</a> .</p>
+{/* <p className='w-full mt-3 font-semibold' >For further details, kindly visit <a href="https://ghbooking.iitr.ac.in/">https://ghbooking.iitr.ac.in/</a> .</p> */}
 
 
 </dir>

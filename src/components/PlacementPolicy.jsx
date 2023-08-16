@@ -3,11 +3,11 @@ import Download from './Download'
 import { NavLink, useParams } from 'react-router-dom'
 import FormsApi from '../Apis/FormsApi'
 import Header from './Header'
-const FormComponent = () => {
-    const {id} = useParams()
-    const data = FormsApi.filter(form=>{
-        return form.id == id
-    })
+const PlacementPolicy = () => {
+  const id = "placement-policy";
+  const data = FormsApi.filter(form=>{
+    return form.id == id
+})
   return (
     <>
     <Header bgOn={true}/>
@@ -16,8 +16,7 @@ const FormComponent = () => {
     <h3 className='heading'>{data[0].heading}</h3>
     <div>
         <p className=' text-xs sm:text-2xl font-extralight'>{data[0].content}</p>
-        <Download heading={data[0].heading} downloadLink = {data[0].downloadLink}/>
-        <p className=' text-xs sm:text-2xl '>Please mail the filled Job Announcement Form to <a className=' underline underline-offset-4' href='mailto:pic@iitr.ac.in'>pic@iitr.ac.in</a>  and/or <a className=' underline underline-offset-4' href='mailto:placement@iitr.ac.in'>placement@iitr.ac.in</a> .</p>
+        <Download heading={'Placement Policy format for Companies'} downloadLink = {data[0].downloadLink}/>
         <p className=' text-xs sm:text-2xl font-[600]'>Kindly go through the <NavLink to="/placement" className=" underline underline-offset-2">Placement Procedure</NavLink> for further process or query</p>
 
     </div>
@@ -26,4 +25,4 @@ const FormComponent = () => {
   )
 }
 
-export default FormComponent
+export default PlacementPolicy

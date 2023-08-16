@@ -10,7 +10,7 @@ const Messagefull = () => {
   return (
     <>
     <Header bgOn={true}/>
-    <div className=' m-auto w-4/5 mb-14 '>
+    <div className=' m-auto w-4/5 mb-14 max-w-[1100px] text-lg'>
         <h3 className='heading '>{data[0].heading}</h3>
         <div className='flex flex-wrap pb-14' style={{background:"#F4F8F6"}}>
             <div className='flex flex-col sm:flex-row'>

@@ -6,7 +6,8 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="footer-item">
+      <div className=" flex w-[80%] mx-auto justify-between py-12">
+           <div className="footer-item">
           <img className="logo" src={logo} alt="logo" />
           <div className="disc">
             <p>Placement and Internship Cell,</p>
@@ -16,20 +17,20 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-item">
-          <h2>Contact Us</h2>
+          <h2 className=" text-3xl font-bold">Contact Us</h2>
           <div className="disc">
-            <h3>Phone</h3>
+            <h3 className=" font-bold">Phone</h3>
             <a className="footer-phone" href="tel:+91-1332-285260">
               +91 - 1332 - 285260
             </a>
-            <h3>Email</h3>
+            <h3 className=" font-bold">Email</h3>
             <a className="footer-email" href="mailTo:placement@iitr.ac.in">
               placement@iitr.ac.in or pic@iitr.ac.in
             </a>
           </div>
         </div>
         <div className="footer-item">
-          <h2>Direct Links</h2>
+          <h2 className=" text-3xl font-bold">Direct Links</h2>
           <div className="disc">
             <NavLink to="/placement">Placement Procedure</NavLink>
             <NavLink href="#">E-Brochures</NavLink>
@@ -37,6 +38,8 @@ const Footer = () => {
             <NavLink to="/faq#">FAQs</NavLink>
           </div>
         </div>
+      </div>
+     
 
         <hr />
         <div className="copy-right">

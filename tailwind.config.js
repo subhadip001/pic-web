@@ -15,7 +15,8 @@ export default {
                 "importent": "#2A8ACB",
                 "PIC-Light-grey-Text": "#999999",
                 "Department-card-bg": "#FFEEE5",
-                "white-transparent": "rgba(255, 255, 255, 0.769)"
+                "white-transparent": "rgba(255, 255, 255, 0.769)",
+                'pic-dark-gray-text':'#212427'
 
             },
             height: {

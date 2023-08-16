@@ -23,8 +23,16 @@ const cardContent = [
     text: 'Video Conference Room',
   },
   {
+    heading: '80',
+    text: 'LHC classrooms for tests',
+  },
+  {
     heading: '150 Persons',
     text: 'Seminar Hall Capacity',
+  },
+  {
+    heading: '400 Persons',
+    text: 'MAC Auditorium',
   },
   {
     heading: '250 Persons',
@@ -64,6 +72,10 @@ const Infrastructure = () => {
               <p className="text-sm text-center">{curr.text}</p>
             </div>
           ))}
+          <div  className="bg-Department-card-bg rounded-xl p-4  h-40 flex flex-col justify-center items-center">
+              <h4 className=" mb-3">Other</h4>
+              <p className="text-sm text-center">Department Auditoriums</p>
+            </div>
         </div>
       </div>
     </>

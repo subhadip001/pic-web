@@ -22,13 +22,13 @@ const HowToReach = () => {
     <>
      <Header bgOn={true}/>
 <h3 className='heading'>How to Reach</h3>
-<div className=' w-4/5 mx-auto'>
-    <div className=' flex gap-4 flex-wrap md:flex-nowrap mb-10'>
-        <div className=' object-contain flex-1 min-w-300px'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.9444276080676!2d77.89370827542852!3d29.865876475013955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%E2%80%93Roorkee%20(IIT%E2%80%93Roorkee)!5e0!3m2!1sen!2suk!4v1686592612448!5m2!1sen!2suk" width="100%" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+<div className=' w-4/5 mx-auto max-w-[1150px]'>
+    <div className=' flex gap-4 flex-wrap md:flex-nowrap mb-10 max-h-[400px]'>
+        <div className=' object-contain flex-1 min-w-300px w-1/2'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.9444276080676!2d77.89370827542852!3d29.865876475013955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%E2%80%93Roorkee%20(IIT%E2%80%93Roorkee)!5e0!3m2!1sen!2suk!4v1686592612448!5m2!1sen!2suk" width="100%" height="100%"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
        
-        <div className=' w-full md:w-1/2  min-w-300px'>
+        <div className=' w-full md:w-1/2  min-w-300px p-2'>
         {howToContent.map((curr,index)=>{
             return(
                 <div key={index} className='mb-5'>
@@ -39,12 +39,12 @@ const HowToReach = () => {
         })}
         </div>
     </div>
-    <div className=' flex gap-4 flex-wrap md:flex-nowrap mb-10 rounded-xl bg-PIC-light_gray p-5'>
-        <div className=' object-contain min-w-300px'>
-           <img src={haridwar} alt='iitr location' />  
+    <div className=' flex gap-4 flex-wrap md:flex-nowrap mb-10 rounded-xl bg-bg-gray'>
+        <div className=' object-fill min-w-300px w-1/2'>
+           <img src={haridwar} className=' w-full h-auto' alt='iitr location' />  
         </div>
        
-        <div className=' w-full md:w-1/2 min-w-300px'>
+        <div className=' w-full md:w-1/2 min-w-300px p-2'>
 
      <h3 className=' text-2xl text-PIC-heading font-bold' >Roorkee</h3>
      <h4 className=' text-sm text-orange font-bold mb-5'>Uttarakhand</h4>

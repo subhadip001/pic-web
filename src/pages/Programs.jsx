@@ -12,7 +12,9 @@ const Programs = () => {
     <div className=" mb-10">
 
 <h3 className='heading'>Programmes</h3>
-<h3 className={`w-4/5 mx-auto text-PIC-Light-grey-Text mb-10 text-sm text-justify sm:text-2xl px-4   font-sans p-2  `}>We at IIT Roorkee, undertake three programmes - Undergraduate programme, Post graduate programme and PhD.</h3>
+<h3 className={`w-4/5 mx-auto text-pic-dark-gray-text mb-10 text-sm text-justify sm:text-2xl px-4   font-sans p-2  `}>We at IIT Roorkee, undertake three programmes - Undergraduate programme, Post graduate programme and PhD.
+For more details about academic programmes, kindly visit <a href='https://iitr.ac.in/Academics/Academic%20Programmes.html' target='_blank' className=' font-bold underline '> Academics Programmes IIT Roorkee </a>.
+</h3>
 
 <div className="flex justify-center relative">
   <div className="  w-4/5 mx-auto flex justify-between">

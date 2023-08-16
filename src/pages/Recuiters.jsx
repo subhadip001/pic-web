@@ -1,12 +1,13 @@
 import React from 'react'
 import RecuitersApi from '../Apis/RecuitersApi'
 import Header from '../components/Header'
+import Recruiters from '../components/Recruiters'
 
-const Recuiters = () => {
+const RecuitersPage= () => {
   return (
     <>
     <Header bgOn={true}/>
-    <h3 className="heading">Our Recruiters</h3>
+    {/* <h3 className="heading">Our Recruiters</h3>
  
   <div className=" w-4/5 mx-auto  mb-20 text-xs  sm:text-sm py-4 font-sans ">
     
@@ -16,12 +17,13 @@ const Recuiters = () => {
     </div>
 
       })}
+  </div> */}
+  <div className=' mb-20'>
+      <Recruiters/>
   </div>
-
-
 
     </>
   )
 }
 
-export default Recuiters
+export default RecuitersPage

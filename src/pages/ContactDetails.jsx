@@ -8,13 +8,13 @@ const ContactDetails = () => {
     <Header bgOn = {true}/>
 <h3 className='heading'>Contact Details</h3>
 <div className=' w-90% mx-auto mb-10'>
-  <div className=' max-w-600px py-4 px-6 gap-4 bg-PIC-light_gray rounded-xl flex flex-wrap sm:flex-nowrap '>
- <div className=' bg-PIC-Blue p-10 rounded-xl object-contain max-w-200px'>
-    <img src={picPlogo} alt="pic-logo" />
+  <div className=' py-4 px-6 gap-4 bg-bg-gray rounded-xl  inline-flex flex-wrap sm:flex-nowrap mt-10'>
+ <div className=' bg-PIC-Blue p-10 h-[250px] w-[250px] rounded-xl object-contain '>
+    <img src={picPlogo} alt="pic-logo" className=' scale-125' />
  </div>
-<div className=' text-lg flex-1'>
-<h4 className=' text-PIC-heading font-bold'>Placement and Internship Cell</h4>
-<p className=' text-xs font-bold text-orange'>IIT Roorkee</p>
+<div className=' text-lg  pr-5 flex flex-col justify-between'>
+<h4 className=' text-PIC-heading font-semibold text-xl'>Placement and Internship Cell<br/> <span className=' text-sm font-bold text-orange'>IIT Roorkee</span></h4>
+
 <div className='flex gap-2 my-2'>
     <div className=' object-contain'>
       <svg width="24" height="24" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ const ContactDetails = () => {
 </svg>  
     </div>
 
-<p className=' text-xs'>
+<p className=' text-sm'>
 Placement and Internship Cell<br/>
 Indian Institute of Technology Roorkee<br/>
 Roorkee-247667, Haridwar district,<br/>
@@ -36,7 +36,7 @@ Uttarakhand, India
 </svg> 
     </div>
 
-<a href='tel:1332 - 285260' className=' text-xs'> Ph: +91 - 1332 - 285260, 273456</a>
+<a href='tel:1332 - 285260' className=' text-sm'> Ph: +91 - 1332 - 285260, 273456</a>
 </div>
 <div className='flex gap-2 my-2'>
     <div className=' object-contain'>
@@ -44,7 +44,7 @@ Uttarakhand, India
 <path d="M3.11109 26.8346C2.36109 26.8346 1.71064 26.5592 1.15972 26.0083C0.608802 25.4573 0.333344 24.8069 0.333344 24.0569V2.94572C0.333344 2.19572 0.608802 1.54526 1.15972 0.994344C1.71064 0.443427 2.36109 0.167969 3.11109 0.167969H30.8889C31.6389 0.167969 32.2894 0.443427 32.8403 0.994344C33.3912 1.54526 33.6667 2.19572 33.6667 2.94572V24.0569C33.6667 24.8069 33.3912 25.4573 32.8403 26.0083C32.2894 26.5592 31.6389 26.8346 30.8889 26.8346H3.11109ZM17 14.5568L3.11109 5.58459V24.0569H30.8889V5.58459L17 14.5568ZM17 11.7791L30.7778 2.94572H3.25001L17 11.7791ZM3.11109 5.58459V2.94572V24.0569V5.58459Z" fill="#203A73"/>
 </svg> 
     </div>
-<div className=' text-xs'>
+<div className=' text-sm'>
 <a href='mailTo:placement@iitr.ac.in' className=' underline'>
 placement@iitr.ac.in  
 </a> or <a href="mailTo:pic@iitr.ac.in" className=' underline'>pic@iitr.ac.in</a></div>

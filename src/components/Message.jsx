@@ -12,7 +12,7 @@ const Message = (props) => {
                     </div>
                     <div className='message-content p-12'>
                         <h4 className='message-by text-xl font-extrabold text-center'>{props.by}</h4>
-                        <p className=' text-sm sm:text-lg md:lg text-justify font-[500]'>{props.message}</p>
+                        <p className=' text-sm sm:text-lg md:text-2xl text-justify font-[500]'>{props.message}</p>
                         <NavLink to={`message/${props.target}`} className='text-PIC-heading font-bold'>{"Read more >>"}</NavLink>
                     </div>
                 </div>
