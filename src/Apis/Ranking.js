@@ -1,23 +1,25 @@
-import nirf from '../assets/images/nirf.svg'
+import nirfArchi from '../assets/images/nirfArchi.svg'
+import nirfEngineering from '../assets/images/nirfEngineering.svg'
+import nirfOverAll from '../assets/images/nirfOverAll.svg'
 import the from '../assets/images/the.svg'
 import WUR from '../assets/images/wru.svg'
 
 const Ranking = [{
         Id: 1,
         name: "Nirf",
-        heading: nirf,
+        heading: nirfArchi,
         rank: 1
     },
     {
         Id: 1,
         name: "Nirf",
-        heading: nirf,
+        heading: nirfEngineering,
         rank: 5
     },
     {
         Id: 1,
         name: "Nirf",
-        heading: nirf,
+        heading: nirfOverAll,
         rank: 8
     },
     {

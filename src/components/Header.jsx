@@ -62,7 +62,7 @@ const Header = (props) => {
 
   return (
     <>
-      <div className={` relative mb-14 z-50 ${props.bgOn ? "header" : ""}`}>
+      <div className={` relative mb-14 z-50 ${props.bgOn ? "header" : ""} bg-[#00000099]`}>
         <div className={`w-full  top-0   ${props.bgOn ? "bgeffect" : ""}`}>
           <div className=" w-4/5 m-auto">
             <div className="flex justify-between gap-5 py-5 items-center">
