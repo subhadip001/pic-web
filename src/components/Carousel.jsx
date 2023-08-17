@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-const Carousel = ({ images, interval }) => {
+const Carousel = ({ images, interval, style }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  let newStyle = style?style:{};
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -14,7 +14,7 @@ const Carousel = ({ images, interval }) => {
   }, [images, interval]);
 
   return (
-    <div className="carousel overflow-hidden">
+    <div className="carousel overflow-hidden"  style={newStyle}>
       {images.map((image, index) => (
         <img
           key={index}
