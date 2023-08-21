@@ -9,10 +9,10 @@ function Gallery() {
       <div className="flex flex-wrap">
         <div className="flex w-1/2 flex-wrap">
           <div className="w-full p-1 pl-0 md:p-2 md:pl-0 " >
-            <img
+            <video
               alt="gallery"
               className="block h-full w-full object-cover object-center"
-              src={video}
+              src={"https://drive.google.com/uc?export=view&id=1fB4IMIuGgcHVmBe2l1CQjHaV2QRgHEmG"}
             />
           </div>
         </div>

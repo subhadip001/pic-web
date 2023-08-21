@@ -9,7 +9,7 @@ const Footer = () => {
       <div className=" flex w-[80%] mx-auto justify-between py-4">
            <div className="footer-item">
           <img className="" src={logo} alt="logo" />
-          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
+          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text leading-6">
             <p>Placement and Internship Cell,</p>
             <p>Indian Institute of Technology Roorkee,</p>
             <p>Roorkee-247667</p>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className="footer-item">
           <h2 className=" text-3xl font-bold">Direct Links</h2>
-          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
+          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text flex flex-col gap-[6px]">
             <NavLink to="/placement">Placement Procedure</NavLink>
             <NavLink to="/departments">Department E-Brochures</NavLink>
             <NavLink to="/forms/job-announcement">Job Announcement Form</NavLink>
