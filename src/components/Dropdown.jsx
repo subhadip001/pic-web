@@ -18,7 +18,7 @@ function Dropdown(props) {
     };
 
     return (
-        <div className="block sm:inline-flex items-center justify-center">
+        <div className="block sm:inline-flex items-center justify-center ">
             <div className="group relative cursor-pointer sm:flex justify-center ">
                 <div className="inline-flex items-center justify-between">
                     <NavLink 

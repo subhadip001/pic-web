@@ -16,7 +16,7 @@ const PlacementComponent = (props) => {
        <ol className=' text-justify'>
         {props.phase.content.split('\n\n').map((para, index) => {
           return (
-            <li className=' list-inside list-decimal py-2' key={index}>
+            <li className=' list-inside list-decimal py-2 text-[18px] 3xl:text-[22px]' key={index}>
               <span dangerouslySetInnerHTML={{ __html: getFormattedText(para) }} />
             </li>
           );

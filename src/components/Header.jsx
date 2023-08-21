@@ -17,7 +17,7 @@ const about = {
   ],
 };
 const forms = {
-  heading: "Forms and Procedures",
+  heading: "Procedures and Forms",
   data: [
     { subHeading: "Placement Procedure", target: "/placement" },
     { subHeading: "Placement Policy", target: "/placement-policy" },
