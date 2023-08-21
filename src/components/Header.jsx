@@ -66,10 +66,10 @@ const Header = (props) => {
         <div className={`w-full  top-0   ${props.bgOn ? "bgeffect" : ""}`}>
           <div className=" w-4/5 m-auto">
             <div className="flex justify-between gap-5 py-5 items-center">
-              <div className="flex-1 object-contain">
+              <div className="flex-1  h-[70px]">
                 <img
                   src={logo}
-                  className="w-full h-auto max-w-200px"
+                  className="w-full max-w-200px h-[70px] "
                   alt=" pic logo"
                 />
               </div>

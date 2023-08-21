@@ -66,7 +66,7 @@ const Administration = () => {
        <div className=' flex justify-center w-4/5 m-auto'>
        <div className=" w-full max-w-[1150px] flex-col justify-start items-center inline-flex">
   <div className=" w-1/3 h-[180px] p-5 bg-neutral-100 rounded-[10px] flex-col justify-center items-center flex">
-    <div className=" text-orange text-2xl font-bold">Prof. Kamal Kishore Pant</div>
+    <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Prof. Kamal Kishore Pant</div>
     <div className="text-center text-neutral-800 text-xl font-normal">Director<br/>IIT Roorkee</div>
   </div>
   <div className=" object-fill h-[100px] relative" style={{width:'calc(66.666% + 80px)'}}>
@@ -74,7 +74,7 @@ const Administration = () => {
   </div>
   <div className=" w-full justify-start items-center inline-flex">
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold">Prof. M. K. Barua</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Prof. M. K. Barua</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Dean of Student Welfare<br/>IIT Roorkee</div>
     </div>
     <svg width="40" height="12"  fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +82,7 @@ const Administration = () => {
 </svg>
 
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold">Prof. Kaushik Pal</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Prof. Kaushik Pal</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Professor-in-charge<br/>Placement and Internship Cell</div>
     </div>
     <svg width="40" height="12"  fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +90,7 @@ const Administration = () => {
 </svg>
 
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold">Prof. A. K. Sharma</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Prof. A. K. Sharma</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Dean of Academic Affairs<br/>IIT Roorkee</div>
     </div>
   </div>
@@ -99,7 +99,7 @@ const Administration = () => {
   </div>
   <div className=" w-full justify-start items-center inline-flex">
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold">Faculty-in-charge</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Faculty-in-charge</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Departments and Centers<br/>IIT Roorkee</div>
     </div>
     <svg width="40" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@ const Administration = () => {
 </svg>
 
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold">Placement Cell Staff and<br/>Central Placement Team</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold">Placement Cell Staff and<br/>Central Placement Team</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Placement and Internship Cell</div>
     </div>
     <svg width="40" height="12"  fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +115,7 @@ const Administration = () => {
 </svg>
 
     <div className=" w-1/3 p-5 h-[180px] bg-neutral-100 rounded-[10px] flex-col justify-center items-center inline-flex">
-      <div className=" text-orange text-2xl font-bold text-center">Student Placement Representatives</div>
+      <div className=" text-orange text-[20px] 3xl:text-[24px]  font-bold text-center">Student Placement Representatives</div>
       <div className="text-center text-neutral-800 text-xl font-normal">Departments and Centers<br/>IIT Roorkee</div>
     </div>
   </div>

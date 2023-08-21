@@ -4,10 +4,11 @@ const message = [{
     "id": "director",
     "heading": "Director’s message",
     "by": "Prof. Kamal Kishor Pant",
+    'greeting': null,
     img: DirectorPhoto,
     "position": "Director",
     institute: "Indian Institute of Technology Roorkee",
-    "message": "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant    ",
+    "message": "Indian Institute of Technology Roorkee (erstwhile University of Roorkee) is a leading institution of higher technical education with an excellent track record over the last 175 years. It has contributed immensely to the growth and development of our nation. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant.",
     thought: "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country.",
     "messageFull": `
     Once they are here, they imbibe the core values of the Institute which helps them blossom their personality. They aim to be engineers/managers/scientists/architects par excellence, ready to compete at the global level.
@@ -22,6 +23,7 @@ const message = [{
     "heading": "Professor-in-charge’s message",
     "by": "Prof. Kaushik Pal",
     img: professorInCharge,
+    'greeting':'Dear Sir/Madam',
     "position": "Professor-in-charge",
     institute: "Placement and Internship Cell, IIT Roorkee",
     "message": "Versatility with specialization is that is offered in the form of students here at IIT, Roorkee. Cultural depth and intensity built upon a legacy of around seventeen decades has culminated into personalities having a capability of changing the World.",

@@ -21,7 +21,7 @@
     /* font-family: 'open sans'; */
     text-align: center;
     margin-bottom: 30px;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 28px;
     color: #203A73;
     font-weight: 600;
@@ -81,4 +81,10 @@ hr {
 
 .carousel-image.active {
     opacity: 1;
+}
+
+@media  ( min-width:1600px) {
+    .heading{
+        font-size: 36px;
+    }
 }

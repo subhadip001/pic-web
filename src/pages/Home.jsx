@@ -31,7 +31,7 @@ const Home = () => {
           />
         </div>
         <div
-          className=" w-full absolute h-full top-0 bg-[#00000099] z-10 "
+          className=" w-full absolute h-full top-0 bg-[#00000080] z-10 "
           onClick={() => {
             console.log("clicked");
           }}

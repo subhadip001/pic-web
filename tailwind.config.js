@@ -87,6 +87,9 @@ export default {
                     '100%': { transform: 'translateX(0%)' },
                 }
             },
+            screens:{
+                '3xl':'1600px'
+            }
 
         },
     },

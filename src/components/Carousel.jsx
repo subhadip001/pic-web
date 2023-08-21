@@ -20,7 +20,7 @@ const Carousel = ({ images, interval, style }) => {
           key={index}
           src={image}
           alt={`Carousel Image ${index + 1}`}
-          className={`carousel-image ${index === currentIndex ? 'active' : ''}`}
+          className={`carousel-image object-cover ${index === currentIndex ? 'active' : ''}`}
         />
       ))}
     </div>

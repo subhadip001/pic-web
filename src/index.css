@@ -10,3 +10,9 @@
 *{
     scroll-behavior: smooth;
 }
+.red_hat_text{
+    font-family: 'Red Hat Text', sans-serif;
+}
+.open_sans{
+    font-family: 'Open Sans', sans-serif;
+}
