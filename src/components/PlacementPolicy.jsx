@@ -17,7 +17,7 @@ const PlacementPolicy = () => {
     <div>
         <p className=' text-xs sm:text-2xl font-extralight'>{data[0].content}</p>
         <Download heading={'Placement Policy format for Companies'} downloadLink = {data[0].downloadLink}/>
-        <p className=' text-xs sm:text-2xl font-[600]'>Kindly go through the <NavLink to="/placement" className=" underline underline-offset-2">Placement Procedure</NavLink> for further process or query</p>
+        <p className=' text-[22px] 3xl:text-[28px] font-[600]'>Kindly go through the <NavLink to="/placement" className=" underline underline-offset-2">Placement Procedure</NavLink> for further process or query</p>
 
     </div>
     </div>  
