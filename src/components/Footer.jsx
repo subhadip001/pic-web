@@ -33,8 +33,8 @@ const Footer = () => {
           <h2 className=" text-3xl font-bold">Direct Links</h2>
           <div className="disc">
             <NavLink to="/placement">Placement Procedure</NavLink>
-            <NavLink href="#">E-Brochures</NavLink>
-            <NavLink to="/forms/job-announcement">Forms</NavLink>
+            <NavLink to="/departments">E-Brochures</NavLink>
+            <NavLink to="/forms">Forms</NavLink>
             <NavLink to="/faq#">FAQs</NavLink>
           </div>
         </div>

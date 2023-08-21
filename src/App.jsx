@@ -19,6 +19,7 @@ import Faq from "./pages/Faq.jsx";
 import HowToReach from "./pages/HowToReach.jsx";
 import PlacementPolicy from "./components/PlacementPolicy.jsx";
 import AipcGuidlines from "./components/AipcGuidlines.jsx";
+import Forms from "./components/Forms.jsx";
 const App = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/message/:by" element={<Messagefull />} />
         <Route path="/administration" element={<Administration />} />
         <Route path="/forms/:id" element={<FormComponent />} />
+        <Route path="/forms" element={<Forms />} />
         <Route path="/placement-policy" element={<PlacementPolicy />} />
         <Route path="/aipc-guidlines" element={<AipcGuidlines />} />
         <Route path="/placement" element={<PlacementProcedure />} />

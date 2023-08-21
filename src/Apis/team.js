@@ -73,5 +73,4 @@ const teamData = [
   },
 ];
 
-// You now have an array of objects with empty "image" fields.
 export default teamData;
