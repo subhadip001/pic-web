@@ -43,7 +43,7 @@ const Footer = () => {
      
 
         <hr />
-        <div className="copy-right">
+        <div className="copy-right pt-[10px]">
           <p className="copy-right-p">
             Copyright © 2023 Placement and Internship Cell, IITR. All rights
             reserved.
