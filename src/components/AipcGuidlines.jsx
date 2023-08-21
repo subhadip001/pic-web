@@ -15,7 +15,7 @@ const AipcGuidlines = () => {
         
     <h3 className='heading'>{data[0].heading}</h3>
     <div>
-        <p className=' text-xs sm:text-2xl font-extralight'>{data[0].content}</p>
+        <p className=' text-[22px] 3xl:text-[28px] font-extralight'>{data[0].content}</p>
         <Download heading={data[0].heading} downloadLink = {data[0].downloadLink}/>
         <p className=' text-[22px] 3xl:text-[28px] font-[600]'>Kindly go through the <NavLink to="/placement" className=" underline underline-offset-2">Placement Procedure</NavLink> for further process or query</p>
 
