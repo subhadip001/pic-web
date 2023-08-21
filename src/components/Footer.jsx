@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-      <div className=" flex w-[80%] mx-auto justify-between py-12">
+      <div className=" flex w-[80%] mx-auto justify-between py-4">
            <div className="footer-item">
-          <img className="logo" src={logo} alt="logo" />
-          <div className="disc">
+          <img className="" src={logo} alt="logo" />
+          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
             <p>Placement and Internship Cell,</p>
             <p>Indian Institute of Technology Roorkee,</p>
             <p>Roorkee-247667</p>
@@ -17,24 +17,25 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-item">
-          <h2 className=" text-3xl font-bold">Contact Us</h2>
-          <div className="disc">
+          <h2 className=" text-[29px] 3xl:text-[36px] font-bold">Contact Us</h2>
+          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
             <h3 className=" font-bold">Phone</h3>
             <a className="footer-phone" href="tel:+91-1332-285260">
               +91 - 1332 - 285260
             </a>
             <h3 className=" font-bold">Email</h3>
-            <a className="footer-email" href="mailTo:placement@iitr.ac.in">
+            <a className="footer-email text-[18px] 3xl:text-[22px] red_hat_text" href="mailTo:placement@iitr.ac.in">
               placement@iitr.ac.in or pic@iitr.ac.in
             </a>
           </div>
         </div>
         <div className="footer-item">
           <h2 className=" text-3xl font-bold">Direct Links</h2>
-          <div className="disc">
+          <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
             <NavLink to="/placement">Placement Procedure</NavLink>
-            <NavLink to="/departments">E-Brochures</NavLink>
-            <NavLink to="/forms">Forms</NavLink>
+            <NavLink to="/departments">Department E-Brochures</NavLink>
+            <NavLink to="/forms/job-announcement">Job Announcement Form</NavLink>
+            <NavLink to="/forms/summer-internship">Summer Internship Form</NavLink>
             <NavLink to="/faq#">FAQs</NavLink>
           </div>
         </div>
@@ -47,8 +48,8 @@ const Footer = () => {
             Copyright © 2023 Placement and Internship Cell, IITR. All rights
             reserved.
           </p>
-          <span>
-            Developed by <a href="https://cyphertech.space" target="_blank"> Cypher Tech</a>
+          <span className="text-[14px] 3xl:text-[16px]">
+          <strong> Designed by</strong> Sheetal Narkhede, Atharva Duraphe and Kavin Madheswaran     <span className="px-5">|</span>   <strong> Developed by</strong> <a href="https://cyphertech.space" target="_blank"> Cypher Tech</a>
           </span>
         </div>
       </div>

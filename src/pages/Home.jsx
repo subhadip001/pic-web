@@ -63,7 +63,7 @@ const Home = () => {
           })}
         </div>
       </div>
-
+      <h3 className='heading-mssg mt-[96px]'>Our Recruiters</h3>
       <Recruiters />
       <Gallery />
     </>
