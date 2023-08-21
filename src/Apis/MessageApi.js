@@ -8,7 +8,7 @@ const message = [{
     img: DirectorPhoto,
     "position": "Director",
     institute: "Indian Institute of Technology Roorkee",
-    "short_mess" : "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant....",
+    "short_mess" : "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is  ....",
     "message": "Indian Institute of Technology Roorkee (erstwhile University of Roorkee) is a leading institution of higher technical education with an excellent track record over the last 175 years. It has contributed immensely to the growth and development of our nation. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant.",
     thought: "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country.",
     "messageFull": `
