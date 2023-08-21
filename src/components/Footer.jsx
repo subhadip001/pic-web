@@ -47,10 +47,9 @@ const Footer = () => {
             Copyright © 2023 Placement and Internship Cell, IITR. All rights
             reserved.
           </p>
-          <p>
-            Designed by Atharva Duraphe, Kavin Madheswaran, S. Rabiudeen and
-            Sheetal Narkhede | Developed by Cypher Tech
-          </p>
+          <span>
+            Developed by <a href="https://cyphertech.space" target="_blank"> Cypher Tech</a>
+          </span>
         </div>
       </div>
     </>
