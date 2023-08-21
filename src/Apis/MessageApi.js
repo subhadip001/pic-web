@@ -23,7 +23,7 @@ const message = [{
     "heading": "Professor-in-charge’s message",
     "by": "Prof. Kaushik Pal",
     img: professorInCharge,
-    'greeting':'Dear Sir/Madam',
+    'greeting':null,
     "position": "Professor-in-charge",
     institute: "Placement and Internship Cell, IIT Roorkee",
     "message": "Versatility with specialization is that is offered in the form of students here at IIT, Roorkee. Cultural depth and intensity built upon a legacy of around seventeen decades has culminated into personalities having a capability of changing the World.",
