@@ -7,6 +7,7 @@ const RecuitersPage= () => {
   return (
     <>
     <Header bgOn={true}/>
+    <h3 className='heading'>Our Recruiters</h3>
     {/* <h3 className="heading">Our Recruiters</h3>
  
   <div className=" w-4/5 mx-auto  mb-20 text-xs  sm:text-sm py-4 font-sans ">

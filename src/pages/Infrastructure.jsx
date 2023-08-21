@@ -68,13 +68,13 @@ const Infrastructure = () => {
         <div className=" grid grid-cols-1 sm:grid-cols-5 gap-4">
           {cardContent.map((curr, index) => (
             <div key={index} className="bg-Department-card-bg rounded-xl p-4  h-40 flex flex-col justify-center items-center">
-              <h4 className="text-orange font-bold mb-3">{curr.heading}</h4>
-              <p className="text-sm text-center">{curr.text}</p>
+              <h4 className="text-orange text-[22px] 3xl:text-[28px] font-bold mb-3">{curr.heading}</h4>
+              <p className="text-[18px] 3xl:text-[22px]  text-center">{curr.text}</p>
             </div>
           ))}
           <div  className="bg-Department-card-bg rounded-xl p-4  h-40 flex flex-col justify-center items-center">
-              <h4 className=" mb-3">Other</h4>
-              <p className="text-sm text-center">Department Auditoriums</p>
+              <h4 className=" mb-3 text-[22px] 3xl:text-[28px]">Other</h4>
+              <p className="text-[18px] 3xl:text-[22px] text-center">Department Auditoriums</p>
             </div>
         </div>
       </div>

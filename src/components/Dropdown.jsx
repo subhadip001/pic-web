@@ -31,14 +31,14 @@ function Dropdown(props) {
                 </div>
                 <div
                     className={`${isDropdownOpen ? 'block' : 'hidden'
-                        }  sm:absolute z-50 whitespace-nowrap top-10   text-center navbg shadow-xl group-hover:block`}
+                        }  sm:absolute z-50  top-10   text-center navbg shadow-xl group-hover:block w-[240px]`}
                     onMouseLeave={closeDropdown}
                 >
                     {props.data.map((curr, index) => (
                         <NavLink
                             to={curr.target}
                             key={index}
-                            className="block border-b border-gray-400 py-5 text-black hover:font-semibold hover:bg-gray-300 md:px-4"
+                            className="block border-b border-gray-400 py-5 max-w-[240px] text-black hover:font-semibold hover:bg-gray-300 md:px-4"
                             onClick={handleItemClick}
                         >
                             {curr.subHeading}

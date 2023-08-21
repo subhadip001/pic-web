@@ -19,7 +19,6 @@ const FormComponent = () => {
         <Download heading={data[0].heading} downloadLink = {data[0].downloadLink}/>
         <p className=' text-[22px] 3xl:text-[28px] '>Please mail the filled Job Announcement Form to <a className=' underline underline-offset-4' href='mailto:pic@iitr.ac.in'>pic@iitr.ac.in</a>  and/or <a className=' underline underline-offset-4' href='mailto:placement@iitr.ac.in'>placement@iitr.ac.in</a> .</p>
         <p className=' text-[22px] 3xl:text-[28px] font-medium'>Kindly go through the <NavLink to="/placement" className=" underline underline-offset-2">Placement Procedure</NavLink> for further process or query</p>
-
     </div>
     </div>  
     </>
