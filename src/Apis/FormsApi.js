@@ -17,7 +17,7 @@ const FormsApi = [
   },
   {
     id: "placement-policy",
-    heading: "Placement policy",
+    heading: "Placement Policy",
     downloadLink:
       "https://drive.google.com/file/d/1wCBxIB9xlU7A75hBJTk27WYXgOLoEmZu/view",
     content:

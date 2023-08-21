@@ -16,10 +16,12 @@ const phases = [
   {
     phaseNo: 2,
     content: `The Placement & Internship Cell *allots a date* to the company as per the ranking by the students. The company is ranked on the basis of following parameters:
-    Job profile and growth prospects.
-    <ol><li class=' list-inside  list-decimal py-1 pl-2'>The package being offered by the company.</li>
-    <li li class=' list-inside  list-decimal py-1 pl-2'>Past record of recruitment at IIT Roorkee.</li>
-    <li li class=' list-inside  list-decimal py-1 pl-2'>Feedback from the students regarding the company.</li>\n
+    .
+    <ol>
+    <li class=' list-inside  list-decimal py-1 pl-6'>Job profile and growth prospects.</li>
+    <li class=' list-inside  list-decimal py-1 pl-6'>The package being offered by the company.</li>
+    <li class=' list-inside  list-decimal py-1 pl-6'>Past record of recruitment at IIT Roorkee.</li>
+    <li class=' list-inside  list-decimal py-1 pl-6'>Feedback from the students regarding the company.</li>\n
     The company can *confirm or negotiate* the dates with the placement Office.\n
     Interested students sign their willingness by registering for the company online.\n
     *Resumes* of the interested students (if required) are made available to the companies for the purpose of short listing.\n

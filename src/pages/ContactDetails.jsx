@@ -21,7 +21,7 @@ const ContactDetails = () => {
               </span>
             </span>
             <div className="grid grid-cols-2">
-              <div className="left flex flex-col gap-5">
+              <div className="left flex flex-col justify-between">
                 <div className="flex gap-2">
                   <div className=" object-contain">
                     <svg
@@ -120,18 +120,17 @@ const ContactDetails = () => {
         </div>
       </div>
 
-      <section className="py-12">
+      <section className="py-12  ">
         <h3 className="heading">Team</h3>
-        <div className="grid grid-cols-3 w-[90%] mx-auto gap-14">
+        <div className="grid grid-cols-3 w-[90%] mx-auto mt-16 gap-14">
           {teamData.map((item) => {
             return (
               <div className="flex col-span-1">
                 <img className="w-[7.5625rem] aspect-square object-cover rounded-[0.5rem]" alt="img" src={item.image} loading="lazy" />
                 <div className="flex flex-col justify-end">
-                  <div className="bg-[#F4F8F6] py-[1rem] px-[1.5rem]">
-                    <span className="">
+                  <div className="bg-[#F4F8F6] py-[1rem] px-[1.5rem] w-[240px] rounded-r-xl">
+                    <span className=" text-[18px] 3xl:text-[22px] font-medium block ">
                       {item.name}
-                      <br />
                     </span>
                     <span className="">{item.phone}</span>
                   </div>

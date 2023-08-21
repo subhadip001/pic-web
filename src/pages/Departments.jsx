@@ -14,7 +14,7 @@ const Departments = () => {
                 {DepartmentsApi.map((curr, index) => <DepartmentCard key={index} cardData={curr} />)}
 
             </div>
-            <h4 className='  text-[22px] 3xl:text-[28px] text-PIC-heading font-bold w-4/5 m-auto pb-5'>Centres</h4>
+            <h4 className='  text-[22px] 3xl:text-[28px] text-PIC-heading font-bold w-4/5 m-auto pb-5'>Academic Centres</h4>
             <div className=' w-4/5 mx-auto grid grid-cols-1  sm:grid-cols-5  gap-4 justify-center sm:justify-normal mb-20'>
                 {CentresApi.map((curr, index) => <DepartmentCard key={index} cardData={curr} />)}
             </div>

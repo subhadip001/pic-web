@@ -40,7 +40,8 @@ const programsApi = [{
             {
                 subHeading: "Institutional Links and Cooperation",
                 subContent: `The Institute is proud of its extensive national and international links and it encourages involvement by both its faculty and students. Opportunities range from the exchange of students and faculty for research work and projects. Other examples of IITR's activities are given below:\n
-            Development of academic programmes`,
+            `,
+            listHeading :'Development of academic programmes\n',
                 list: `
                     Training of students\n
                     Exchange of publications, data, teaching material\n
@@ -53,7 +54,8 @@ const programsApi = [{
             {
                 subHeading: "International Cooperation",
                 subContent: `The Institute is committed to international cooperation and has been actively involved in partnering with countries to develop initiatives in the fields of Engineering, Applied Sciences, Social Science and Management Education. The Institute welcomes talented international students who ultimately contribute to both their home country and the world.\n
-            International students can apply via following channels:`,
+            `,
+            listHeading:'International students can apply via following channels:',
                 list: `
                 Indian Council of Cultural Relations (ICCR)\n
                 Technical Cooperation Service of Colombo Plan\n
@@ -106,7 +108,7 @@ const programsApi = [{
                 list: `Applied Mathematics\n
             Chemistry\n
             Physics`,
-                bottomPara: `Students work on an original thesis in the final year.\n
+                bottomPara: `Students work on an original thesis in the final year.\n\n
             The curriculum includes a two semester Dissertation at the end of fourth year which involves in-depth study of the topic and the creation of new knowledge base in the field.`,
             },
         ],
@@ -142,6 +144,10 @@ const programsApi = [{
             },
             {
                 subHeading: 'M.Tech. program consists of 2 semesters of specialized courses. The final year is completely dedicated to research leading to a dissertation.',
+               
+            },
+            {
+                subHeading: 'M.Sc. Degree Programme- Admitted through a national level test JAM',
                 list: `Biotechnology\n
                 Chemistry\n
                 Earth Sciences\n

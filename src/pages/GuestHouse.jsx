@@ -38,8 +38,8 @@ const GuestHouse = () => {
 
 <div className=' flex gap-4 justify-center flex-wrap sm:flex-nowrap'>
    {GuestHouseCard.map((curr,index)=>{
- return<div key={index} className=' bg-Department-card-bg rounded-xl p-4 flex-1 sm:w-56 h-40 flex flex-col justify-center items-center'>
-<p className=' text-sm text-center'>{curr.text}</p>
+ return<div key={index} className=' bg-Department-card-bg rounded-xl p-1 flex-1 sm:w-56 h-40 flex flex-col justify-center items-center'>
+<p className='text-[18px] 3xl:text-[22px] text-center'>{curr.text}</p>
 </div>
 })} 
 </div>
