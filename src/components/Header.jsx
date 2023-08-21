@@ -69,12 +69,12 @@ const Header = (props) => {
               <div className="flex-1  h-[70px]">
                 <img
                   src={logo}
-                  className="w-full max-w-200px h-[70px] "
+                  className="w-[42%] max-h-full"
                   alt=" pic logo"
                 />
               </div>
-              <div className="flex-1 flex object-contain flex-row-reverse">
-                <img src={iitrLogo} className="" alt="iitr logo" />
+              <div className="flex-1 flex object-contain flex-row-reverse gap-4">
+                <img src={iitrLogo} className="w-[75%]" alt="iitr logo" />
                 <img src={g2} className="" alt="g2 logo" />
               </div>
             </div>

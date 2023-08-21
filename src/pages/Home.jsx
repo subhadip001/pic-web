@@ -37,7 +37,7 @@ const Home = () => {
           }}
         ></div>
         <div className="absolute bottom-0 flex justify-center z-20 flex-col items-center w-full text-white font-bold tracking-wider">
-          <p className=" text-2xl">श्रमं विना न किमपि साध्यम्</p>
+          <p className=" text-[24px] 3xl:text-[32px] tracking-[11.5%]">श्रमं विना न किमपि साध्यम्</p>
           <div className=" h-10 rotate-180">
             <hr className="  block  w-1 bg-orange animate-reverse-height " />
           </div>
@@ -46,7 +46,7 @@ const Home = () => {
 
       <About />
 
-      <div className=" flex justify-center bg-bg-gray">
+      <div className=" flex justify-center bg-bg-gray mt-[96px]">
         <div className=" flex w-[80%] gap-5 py-12">
           {MessageApi.map((curr, index) => {
             return (
@@ -56,6 +56,7 @@ const Home = () => {
                 img={curr.img}
                 by={curr.by}
                 message={curr.message}
+                short_mess={curr.short_mess}
                 target={curr.id}
               />
             );

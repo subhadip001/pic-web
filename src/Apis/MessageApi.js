@@ -8,6 +8,7 @@ const message = [{
     img: DirectorPhoto,
     "position": "Director",
     institute: "Indian Institute of Technology Roorkee",
+    "short_mess" : "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant....",
     "message": "Indian Institute of Technology Roorkee (erstwhile University of Roorkee) is a leading institution of higher technical education with an excellent track record over the last 175 years. It has contributed immensely to the growth and development of our nation. In fact, it may be difficult to find any big project of nation building where the contribution of the graduates of this institute is not significant.",
     thought: "IIT Roorkee is fortunate to be one of the topmost destinations of choice for the brightest students of the country.",
     "messageFull": `
@@ -26,6 +27,7 @@ const message = [{
     'greeting':null,
     "position": "Professor-in-charge",
     institute: "Placement and Internship Cell, IIT Roorkee",
+    "short_mess" : "Versatility with specialization is that is offered in the form of students here at IIT, Roorkee. Cultural depth and intensity built upon a legacy of around seventeen decades has culminated into personalities having a capability of changing the World.",
     "message": "Versatility with specialization is that is offered in the form of students here at IIT, Roorkee. Cultural depth and intensity built upon a legacy of around seventeen decades has culminated into personalities having a capability of changing the World.",
     "thought": "Taught with care and trained for challenges by the best of the academicians with spirit, knowledge and character the students here get converted into the products meant to bring in visible changes in the organizations they join.",
     "messageFull": `Branches they belong to define their specialization and the electives they go through develop them for functionalities in an integrated manner. Just to mention here that IIT Roorkee trains students in various subject areas for developing their techno-managerial and leadership capabilities. Undergraduates undergo for a 6-8 weeks training in reputed organizations, both in India or abroad, while Postgraduate students get involved in research projects of 6-12 months relevant to industry needs except for MBA students who also go for summer training assignments for practical experience with organizations offering profiles of their choice.

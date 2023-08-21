@@ -26,6 +26,15 @@
     color: #203A73;
     font-weight: 600;
 }
+.heading-mssg {
+    /* font-family: 'open sans'; */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 29px;
+    line-height: 28px;
+    color: #203A73;
+    font-weight: 700;
+}
 
 .header {
     background-image: url("../assets/images/home.webp");
