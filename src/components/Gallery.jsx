@@ -9,12 +9,15 @@ function Gallery() {
       <div className="flex flex-wrap">
         <div className="flex w-1/2 flex-wrap">
           <div className="w-full p-1 pl-0 md:p-2 md:pl-0 " >
-            {/* <video
+            <video
               alt="gallery"
               className="block h-full w-full object-cover object-center"
-              src={"https://drive.google.com/uc?export=view&id=1fB4IMIuGgcHVmBe2l1CQjHaV2QRgHEmG"}
-            /> */}
-            <iframe src="https://drive.google.com/file/d/1fB4IMIuGgcHVmBe2l1CQjHaV2QRgHEmG/preview" className='block h-full w-full object-cover object-center ' allow="autoplay"></iframe>
+              autoPlay
+              controls
+              loop
+              src={"https://d17zlg3zez0c7d.cloudfront.net/pic/L4.mp4"}
+            />
+            {/* <iframe src="https://drive.google.com/file/d/1fB4IMIuGgcHVmBe2l1CQjHaV2QRgHEmG/preview" className='block h-full w-full object-cover object-center ' allow="autoplay"></iframe> */}
           </div>
         </div>
         <div className="flex w-1/2 flex-wrap">

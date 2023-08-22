@@ -9,6 +9,7 @@ import Gallery from "../components/Gallery";
 import Carousel from "../components/Carousel";
 import home from "../assets/images/home.webp";
 import g3 from "../assets/images/gh3.webp";
+import ImageAnimation from "../components/ImageAnimation";
 const Home = () => {
   const images = [home, g3];
   const imgs = [
@@ -66,6 +67,9 @@ const Home = () => {
       <h3 className='heading-mssg mt-[96px]'>Our Recruiters</h3>
       <Recruiters />
       <Gallery />
+      {/* <div className="flex justify-center items-center h-screen">
+      <ImageAnimation imageUrls={imgs} interval={2}/></div> */}
+      
     </>
   );
 };
