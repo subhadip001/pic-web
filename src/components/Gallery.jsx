@@ -4,11 +4,26 @@ import thomso from "../assets/thomso.png"
 import thomso2 from "../assets/thomso2.png"
 import mgcl from "../assets/mgcl.png"
 import RotatingCard from './ImageAnimation';
-
+import Carousel from './Carousel';
+import L3_1 from '../assets/images/homephotos/L3_1.webp'
+import L3_2 from '../assets/images/homephotos/L3_2.webp'
+import L3_3 from '../assets/images/homephotos/L3_3.webp'
+import L1_1 from '../assets/images/homephotos/L1_1.webp'
+import L1_2 from '../assets/images/homephotos/L1_2.webp'
+import L1_3 from '../assets/images/homephotos/L1_3.webp'
+import L2_1 from '../assets/images/homephotos/L2_1.webp'
+import L2_2 from '../assets/images/homephotos/L2_2.webp'
+import L2_3 from '../assets/images/homephotos/L2_3.webp'
 const L3 = [
-  "https://drive.google.com/uc?export=view&id=1uQjeFbtif3XwsIRvsrs9GFbDxFbGscNz",
-  "https://drive.google.com/uc?export=view&id=1m0i6CI6NYBN2MomyaWVRPmb-MEGjfjx0",
+  L3_1, L3_2, L3_3
 ]
+const L1=[
+  L1_1, L1_2,L1_3
+]
+const L2 =[
+  L2_1,L2_2,L3_3
+]
+
 function Gallery() {
   return (
     <div className=" w-full mx-auto  py-2 lg:pt-12 overflow-hidden mb-20">
@@ -28,7 +43,11 @@ function Gallery() {
         </div>
         <div className="flex w-1/2 flex-wrap">
           <div className="w-full p-1 pr-0 md:p-2 md:pr-0 h-[400px]">
-          <RotatingCard imageUrls={L3} />
+          <Carousel
+            images={L3}
+            style={{height:"380px"}}
+            interval={4000}
+          />
             {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
@@ -36,18 +55,28 @@ function Gallery() {
             /> */}
           </div>
           <div className="w-1/3 p-1 md:p-2">
-            <img
+          <Carousel
+            images={L1}
+            style={{height:"380px"}}
+            interval={4000}
+          />
+            {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
               src={thomso2}
-            />
+            /> */}
           </div>
           <div className="w-2/3 p-1 pr-0 md:p-2 md:pr-0">
-            <img
+          <Carousel
+            images={L2}
+            style={{height:"380px"}}
+            interval={4000}
+          />
+            {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
               src={thomso}
-            />
+            /> */}
           </div>
         </div>
       </div>

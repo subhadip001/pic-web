@@ -7,15 +7,13 @@ import Recruiters from "../components/Recruiters";
 import Header from "../components/Header";
 import Gallery from "../components/Gallery";
 import Carousel from "../components/Carousel";
-import home from "../assets/images/home.webp";
-import g3 from "../assets/images/gh3.webp";
+import h1 from "../assets/images/homeBanner/h1.webp";
+import h2 from "../assets/images/homeBanner/h2.webp";
+import h3 from "../assets/images/homeBanner/h3.webp";
+import h4 from "../assets/images/homeBanner/h4.webp";
 const Home = () => {
-  const images = [home, g3];
   const imgs = [
-    home,
-    "https://drive.google.com/uc?export=view&id=12KloVM438MNkn_tPeYUbjefocUvJHaw_",
-    "https://drive.google.com/uc?export=view&id=1QqjOd0Hj9xPL88cdCBl63oYagIBkLQeZ",
-    "https://drive.google.com/uc?export=view&id=1RfadZfAQnzq8JOXnNzBM9sp8cb7RUooV",
+    h1, h2, h3, h4
   ];
   return (
     <>
