@@ -32,7 +32,7 @@ import sustainableEnergy from '../assets/centers/sustainableEnergy.svg'
 const DepartmentsApi = [{
         img: math,
         name: "Department of Applied Mathematics and Scientific Computing",
-        link:'https://drive.google.com/file/d/1nKTl3ZV4YZsPk1NzzYrv9635B4ySTd9X/view'
+        link:'https://drive.google.com/file/d/12pkmMHeGZY4-XCy5HhdW6FZos41XX_pg/view?usp=drive_link'
     },
     {
         img: archi,
@@ -42,12 +42,12 @@ const DepartmentsApi = [{
     {
         img: biosci,
         name: "Department of Biosciences and Bioengineering",
-        link:'https://drive.google.com/file/d/1wbPeLAxkR1kmvbdyYLkZz9c8aERw7ROO/view'
+        link:'https://drive.google.com/file/d/1wLnlyZtnNAtuuhrHFPKst3uqyrXQVhGv/view?usp=drive_link'
     },
     {
         img: ce,
         name: "Department of Civil Engineering",
-        link:'https://drive.google.com/file/d/1XLjzqsM6No26DpiONoWIOcv-544lJcJ_/view'
+        link:'https://drive.google.com/file/d/1r38q9N6piRnsaHkT95eIuM28GCt1gegu/view?usp=drive_link'
     },
     {
         img: chemical,
@@ -67,12 +67,12 @@ const DepartmentsApi = [{
     {
         img: design,
         name: "Department of Design",
-        link:'https://drive.google.com/drive/folders/1g7Uo7WcygJQcmDlO0R28DTkIg1HQQWS6'
+        link:'https://drive.google.com/file/d/1AudVbzWXZUPT_zFI7BnrP55DDHVNtE0p/view?usp=drive_link'
     },
     {
         img: earthquake,
         name: "Department of Earthquake Engineering",
-        link:'https://drive.google.com/file/d/1C7jMvBA7io0gf0KjQJntcDcqVmOh5kKI/view'
+        link:'https://drive.google.com/file/d/1MHfjzXk-FZNPvk1fHzSM7SQLZHHsYru5/view?usp=drive_link'
     },
     {
         img: earthsci,
@@ -87,27 +87,27 @@ const DepartmentsApi = [{
     {
         img: ee,
         name: "Department of Electrical Engineering",
-        link:'https://drive.google.com/file/d/1P4lPVRsy4htZ0UFPIZ_qXWqN--8w2Mqd/view'
+        link:'https://drive.google.com/file/d/1yT6I-wJc48iju2N22SOHsuGCrD1oxlOn/view?usp=drive_link'
     },
     {
         img: hasc,
         name: "Department of Humanities and Social Sciences",
-        link:'https://drive.google.com/file/d/1dHLKNBvZcnz6ios-z1D2YKNHAH4kLN7I/view'
+        link:'https://drive.google.com/file/d/1WKBlrFp2iDvzNYD1CKg0bFVjAcrxWyzO/view?usp=drive_link'
     },
     {
         img: hydro,
         name: "Department of Hydrology",
-        link:'https://drive.google.com/file/d/1k0y4s_K6CcJ6k9coPJGhQpgIAGcIsjP1/view'
+        link:'https://drive.google.com/file/d/17T2CWIL4Tt7KRSq2ojrkowOZQvfTyv8Y/view?usp=drive_link'
     },
     {
         img: hydroenegry,
         name: "Department of Hydro and Renewable Energy",
-        link:'https://drive.google.com/file/d/1MYXPRgQvvu0S1U2K1EV7T2ldMa5A2emQ/view'
+        link:'https://drive.google.com/file/d/19ZqabdvuhyXd7z3KbYKrqaQF0DVPVdVJ/view?usp=drive_link'
     },
     {
         img: management,
         name: "Department of Management Studies",
-        link:'https://drive.google.com/file/d/1nypBPtRiAp3AAuapa6CMjTufQ33a5jEW/view'
+        link:'https://drive.google.com/file/d/1h4R3RVICO3UFOJ0cuUA9NGwfFXYhZbOy/view?usp=drive_link'
     },
     {
         img: mechanical,
@@ -132,12 +132,12 @@ const DepartmentsApi = [{
     {
         img: physics,
         name: "Department of Physics",
-        link:'https://drive.google.com/file/d/1SrhBLj2YlCLiBaqxjLZ1BM2oIvaLpPvC/view'
+        link:'https://drive.google.com/file/d/1cyeyBE0uDr-xMZCfhAH-7KnPhYYmcvmS/view?usp=drive_link'
     },
     {
         img: polymer,
         name: "Department of Polymer and Process Engineering",
-        link:'https://drive.google.com/file/d/1lBGU1VGrtPxth-4wVYtHd3A6TGVsdNjz/view'
+        link:'https://drive.google.com/file/d/1XnrbbJwCDv-zq7dcwiZORw0CPiW93SRz/view?usp=drive_link'
     },
     {
         img: water,
@@ -151,7 +151,7 @@ const DepartmentsApi = [{
 const CentresApi = [{
         img: coedmm,
         name: "Centre of Excellence in Disaster Mitigation & Management (CoEDMM)",
-        link:'#'
+        link:'https://drive.google.com/file/d/1mkbIJeSEHa34GTJgiWgDVsqcztsyiJeS/view?usp=drive_link'
     },
     {
         img: sustainableEnergy,
@@ -161,7 +161,7 @@ const CentresApi = [{
     {
         img: nanotechnology,
         name: "Centre for Nanotechnology",
-        link:'https://drive.google.com/file/d/1zTL2K6DEWdiyBEFYt35gX4wltD68m5Hn/view'
+        link:'https://drive.google.com/file/d/1QIZCUoKi4Go06k0XYBbs1yYn92NKSyqZ/view'
     },
     {
         img: cm,
@@ -181,7 +181,7 @@ const CentresApi = [{
     {
         img: dams,
         name: "International Centre of Excellence for Dams",
-        link:'https://drive.google.com/file/d/1la2MMxMcwAz2dkB_u1Jy1yhiHmjEkWFV/view'
+        link:'https://drive.google.com/file/d/1sYusCv-iTRszsRNQchrQa6PxriU0LlTu/view?usp=drive_link'
     },
 
 ]
