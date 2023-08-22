@@ -12,27 +12,26 @@ const RotatingCard = ({ imageUrls }) => {
   }, [imageUrls.length]);
 
   return (
-    <div className="relative w-64 h-96">
+    <div className="relative w-full h-full">
       <div className="absolute w-full h-full transform-style-preserve-3d">
-        {imageUrls.map((imageUrl, index) => (
-          <div
-            key={index}
-            className={`absolute w-full h-full transform transition-transform duration-1000 ease-in-out ${
-              index === currentIndex ? 'rotateX(0)' : 'rotateX(180deg)'
-            }`}
-            style={{
-              transform: `rotateX(${(index - currentIndex) * 360 / imageUrls.length}deg) translateZ(150px)`,
-            }}
-          >
-            <img
-              src={imageUrl}
-              alt={`Image ${index}`}
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-        ))}
+        <div
+          className="absolute w-full h-full transform transition-transform duration-1000 ease-in-out"
+          style={{
+            transform: `
+              rotateX(${360 - (currentIndex * (360 / imageUrls.length))}deg) 
+              translateZ(150px)
+            `,
+          }}
+        >
+          <img
+            src={imageUrls[currentIndex]}
+            alt={`Image ${currentIndex}`}
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </div>
       </div>
     </div>
   );
-};  
+};
+
 export default RotatingCard;
