@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import picPlogo from "../assets/images/picPlogo.png";
+import linkedin from "../assets/linkedin.png";
 import teamData from "../Apis/team";
 
 const ContactDetails = () => {
@@ -99,7 +100,7 @@ const ContactDetails = () => {
                 <div className="flex gap-2">
                   <div className=" object-contain">
                     <img
-                      src="https://s3-alpha-sig.figma.com/img/a932/c345/ac9f445c9f0e67b450861e2a059ad286?Expires=1693785600&Signature=R2IteAGh-iMh8qSvaYJl3wubUALesDWOZRJyC9Ax0Hy0C0-NW0dCkNlI~1tXe8ZMClU8z17wzuW~M-~BJx23tUpfxrW~pBlBuwpFFAQsJ-6iQTv4NA8xqMQ34VYEVnvG68HbfwUxVO-JfDIUw1gJtCDB7rbNfgBl3kU-0kMIa69T3PGa83~mm9D-YKaFPqIHJZJGqsXOfbfZbCBGqY9JpNIAqgsKyB2qB4-emK6gxWpw4mRXJ6jAAYlF~iDk3FQOygVL4nIVZDIAdDOEH7jxrVqI423wGi12YiRyJU17tAbJJQEWoTyw5P6W8sBqSDhMVDg4p3-~Xf9yNeCP4TVWtg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                      src={linkedin}
                       alt=""
                       width="24"
                       height="24"
