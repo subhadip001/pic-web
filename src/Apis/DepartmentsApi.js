@@ -67,7 +67,7 @@ const DepartmentsApi = [{
     {
         img: design,
         name: "Department of Design",
-        link:'https://drive.google.com/file/d/1AudVbzWXZUPT_zFI7BnrP55DDHVNtE0p/view?usp=drive_link'
+        link:'https://drive.google.com/file/d/19uDKUmDx3f-EX1IP00AHYvDJRWmn1qyd/view?usp=drive_link'
     },
     {
         img: earthquake,
@@ -127,12 +127,12 @@ const DepartmentsApi = [{
     {
         img: paper,
         name: "Department of Paper Technology",
-        link:'https://drive.google.com/file/d/1qVcp0qb_K-1k4y-GhgCWIb_1GXSZpXUU/view'
+        link:'https://drive.google.com/file/d/1b9d7A3tBIxrFAfh7gN6rIQ_iKuktxnsv/view?usp=drive_link'
     },
     {
         img: physics,
         name: "Department of Physics",
-        link:'https://drive.google.com/file/d/1cyeyBE0uDr-xMZCfhAH-7KnPhYYmcvmS/view?usp=drive_link'
+        link:'https://drive.google.com/file/d/1WETB172rTUSB56rilZDlB2sbJRbyowud/view'
     },
     {
         img: polymer,
@@ -156,7 +156,7 @@ const CentresApi = [{
     {
         img: sustainableEnergy,
         name: "Center for Sustainable Energy",
-        link:'#'
+        link:'https://cfse.iitr.ac.in/'
     },
     {
         img: nanotechnology,

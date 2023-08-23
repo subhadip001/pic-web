@@ -15,11 +15,11 @@ const links = [
         text: "Summer Internship Form"
     },
     {
-        link: "/",
+        link: "/forms/placement-policy",
         text: "Placement Policy"
     },
     {
-        link: "/",
+        link: "/forms/aipc-guidlines",
         text: "AIPC Guidelines 2023"
     },
     {

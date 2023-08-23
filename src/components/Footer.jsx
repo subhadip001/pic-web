@@ -47,9 +47,9 @@ const Footer = () => {
           <p className="copy-right-p">
           Copyright 2023, Placement and Internship Cell, IIT Roorkee
           </p>
-          <span className="text-[12px] 3xl:text-[16px]">
+          {/* <span className="text-[12px] 3xl:text-[16px]">
           <strong> Designed by</strong> Sheetal Narkhede, Atharva Duraphe and Kavin Madheswaran     <span className="px-5">|</span>   <strong> Developed by</strong> <a href="https://cyphertech.space" target="_blank"> Cypher Tech</a>
-          </span>
+          </span> */}
         </div>
       </div>
     </>
