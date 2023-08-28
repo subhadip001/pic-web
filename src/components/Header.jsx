@@ -74,7 +74,7 @@ const Header = (props) => {
                 />
               </div>
               <div className="flex-1 flex object-contain flex-row-reverse gap-4">
-                <img src={iitrLogo} className="w-[75%]" alt="iitr logo" />
+                <NavLink to={"https://iitr.ac.in"} target="_blank" className="w-[75%]"><img src={iitrLogo} className="w-[100%]" alt="iitr logo" /></NavLink>
                 <img src={g2} className="" alt="g2 logo" />
               </div>
             </div>

@@ -19,13 +19,17 @@ const Footer = () => {
         <div className="footer-item">
           <h2 className=" text-[29px] 3xl:text-[36px] font-bold">Contact Us</h2>
           <div className="disc text-[18px] 3xl:text-[22px] red_hat_text">
-            <h3 className=" font-bold">Phone</h3>
+            <h3 className=" font-bold">Phone:</h3>
             <a className="footer-phone" href="tel:+91-1332-285260">
               +91 - 1332 - 285260
             </a>
-            <h3 className=" font-bold">Email</h3>
+            <h3 className=" font-bold">Email:</h3>
             <a className="footer-email text-[18px] 3xl:text-[22px] red_hat_text" href="mailTo:placement@iitr.ac.in">
               placement@iitr.ac.in or pic@iitr.ac.in
+            </a>
+            <h3 className=" font-bold">Linkedin:</h3>
+            <a className="footer-email text-[18px] 3xl:text-[22px] red_hat_text" href="https://www.linkedin.com/company/tpoiitroorkee/" target="_blank">
+            https://www.linkedin.com/company/tpoiitroorkee
             </a>
           </div>
         </div>

@@ -32,23 +32,23 @@ function Gallery() {
               autoPlay
               loop
               muted
-              src={"https://d17zlg3zez0c7d.cloudfront.net/pic/L4.mp4"}
+              src={"https://d17zlg3zez0c7d.cloudfront.net/pic/new_L4.mp4"}
             />
             {/* <iframe src="https://drive.google.com/file/d/1fB4IMIuGgcHVmBe2l1CQjHaV2QRgHEmG/preview" className='block h-full w-full object-cover object-center ' allow="autoplay"></iframe> */}
           </div>
         </div>
         <div className="flex w-1/2 flex-wrap">
           <div className="w-full p-1 pr-0 md:p-2 md:pr-0 h-[400px]">
-            {/* <Carousel
+            <Carousel
             images={L3}
             style={{height:"380px"}}
             interval={4000}
-          /> */}
-            <FlippingSlider
+          />
+            {/* <FlippingSlider
               images={L3}
               style={{ height: "380px" }}
               interval={4000}
-            />
+            /> */}
             {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
@@ -56,7 +56,7 @@ function Gallery() {
             /> */}
           </div>
           <div className="w-1/3 p-1 md:p-2">
-            <FlippingSlider images={L1} style={{ height: "380px" }} interval={4000} />
+            <Carousel images={L1} style={{ height: "380px" }} interval={4000} />
             {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
@@ -64,7 +64,7 @@ function Gallery() {
             /> */}
           </div>
           <div className="w-2/3 p-1 pr-0 md:p-2 md:pr-0">
-            <FlippingSlider images={L2} style={{ height: "380px" }} interval={4000} />
+            <Carousel images={L2} style={{ height: "380px" }} interval={4000} />
             {/* <img
               alt="gallery"
               className="block h-full w-full  object-cover object-center"
