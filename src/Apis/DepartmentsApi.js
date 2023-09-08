@@ -63,7 +63,7 @@ const DepartmentsApi = [
   {
     img: cse,
     name: "Department of Computer Science and Engineering",
-    link: "https://iitr.ac.in/Departments/Computer%20Science%20and%20Engineering%20Department/index.html",
+    link: "https://drive.google.com/file/d/1fzAU9_CBRw-rwZjv_wWAMZZ91O0edxJj/view?usp=drive_link",
   },
   {
     img: design,
