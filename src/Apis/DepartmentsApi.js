@@ -53,7 +53,7 @@ const DepartmentsApi = [
   {
     img: chemical,
     name: "Department of Chemical Engineering",
-    link: "https://drive.google.com/file/d/1Tu9hWMsIIqhWGOUK0En97aOsbD4sHL40/view?usp=drive_link",
+    link: "https://d17zlg3zez0c7d.cloudfront.net/pic/placement brochure for chemical department(2023-24).pdf",
   },
   {
     img: chemistry,
@@ -68,7 +68,7 @@ const DepartmentsApi = [
   {
     img: design,
     name: "Department of Design",
-    link: "https://drive.google.com/file/d/1AudVbzWXZUPT_zFI7BnrP55DDHVNtE0p/view?usp=drive_link",
+    link: "https://drive.google.com/drive/folders/1g7Uo7WcygJQcmDlO0R28DTkIg1HQQWS6?usp=drive_link",
   },
   {
     img: earthquake,
