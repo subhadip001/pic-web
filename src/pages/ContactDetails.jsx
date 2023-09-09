@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header.jsx";
 import picPlogo from "../assets/images/picPlogo.png";
 import linkedin from "../assets/linkedin.png";
-import teamData from "../Apis/team.jsx";
+import teamData from "../Apis/team.js";
 
 const ContactDetails = () => {
   return (
