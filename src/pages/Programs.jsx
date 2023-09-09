@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import programsApi from '../Apis/programsApi';
-import ProgramContainer from '../components/ProgramContainer';
-import Header from '../components/Header';
+import programsApi from '../Apis/programsApi.js';
+import ProgramContainer from '../components/ProgramContainer.jsx';
+import Header from '../components/Header.jsx';
 
 const Programs = () => {
     const [activeStep, setActiveStep] = useState(0);

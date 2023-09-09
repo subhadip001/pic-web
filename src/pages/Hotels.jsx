@@ -1,7 +1,7 @@
 import React from 'react'
 import hotel from '../assets/images/hotel.webp'
-import Header from '../components/Header'
-import Download from '../components/Download'
+import Header from '../components/Header.jsx'
+import Download from '../components/Download.jsx'
 
 const Hotels = () => {
   return (

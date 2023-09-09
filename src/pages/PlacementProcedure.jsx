@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import PlacementComponent from "../components/PlacementComponent";
+import Header from "../components/Header.jsx";
+import PlacementComponent from "../components/PlacementComponent.jsx";
 
 const phases = [
   {

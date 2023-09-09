@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import iitrLogo from "../assets/iitrLogo.svg";
 import logo from "../assets/logo.svg";
 import { NavLink } from "react-router-dom";
-import Dropdown from "./Dropdown";
+import Dropdown from "./Dropdown.jsx";
 import g2 from "../assets/images/g2.svg";
 
 const about = {

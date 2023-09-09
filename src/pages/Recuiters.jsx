@@ -1,7 +1,7 @@
 import React from 'react'
-import RecuitersApi from '../Apis/RecuitersApi'
-import Header from '../components/Header'
-import Recruiters from '../components/Recruiters'
+import RecuitersApi from '../Apis/RecuitersApi.js'
+import Header from '../components/Header.jsx'
+import Recruiters from '../components/Recruiters.jsx'
 
 const RecuitersPage= () => {
   return (

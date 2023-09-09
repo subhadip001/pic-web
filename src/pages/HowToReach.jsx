@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header.jsx";
 import map from "../assets/images/map.png";
 import haridwar from "../assets/images/haridwar.png";
-import WeatherComp from "../components/WeatherComp";
+import WeatherComp from "../components/WeatherComp.jsx";
 const howToContent = [
   {
     heading: "By Airways",

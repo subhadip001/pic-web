@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
-import ProgramContainer from '../components/ProgramContainer'
-import faqApi from '../Apis/FaqApi'
+import Header from '../components/Header.jsx'
+import ProgramContainer from '../components/ProgramContainer.jsx'
+import faqApi from '../Apis/FaqApi.js'
 
 const Faq = () => {
   return (

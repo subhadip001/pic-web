@@ -1,8 +1,8 @@
 import React from 'react'
-import Download from './Download'
+import Download from './Download.jsx'
 import { NavLink, useParams } from 'react-router-dom'
-import FormsApi from '../Apis/FormsApi'
-import Header from './Header'
+import FormsApi from '../Apis/FormsApi.js'
+import Header from './Header.jsx'
 const PlacementPolicy = () => {
   const id = "placement-policy";
   const data = FormsApi.filter(form=>{

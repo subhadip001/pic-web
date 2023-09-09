@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
-import AdminComponent from "../components/AdminComponent";
+import Header from "../components/Header.jsx";
+import AdminComponent from "../components/AdminComponent.jsx";
 import arrows from "../assets/arrows.svg";
 
 const admins = [

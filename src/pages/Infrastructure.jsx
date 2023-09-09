@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header.jsx';
 import infra1 from '../assets/images/infra1.webp';
 import infra2 from '../assets/images/infra2.webp';
 import infra3 from '../assets/images/infra3.webp';
 import infra4 from '../assets/images/infra4.webp';
 import infra5 from '../assets/images/infra5.webp';
-import Carousel from '../components/Carousel';
+import Carousel from '../components/Carousel.jsx';
 
 const images = [infra1, infra2, infra3, infra4, infra5];
 

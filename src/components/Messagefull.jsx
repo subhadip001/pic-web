@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import message from "../Apis/MessageApi";
-import Header from "./Header";
+import message from "../Apis/MessageApi.js";
+import Header from "./Header.jsx";
 const Messagefull = () => {
   const { by } = useParams();
   const data = message.filter((obj) => {

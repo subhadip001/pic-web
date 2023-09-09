@@ -1,6 +1,6 @@
 // src/components/Carousel.js
 import React, { useState, useEffect } from "react";
-import Slide from "./Slide";
+import Slide from "./Slide.jsx";
 
 function FlippingSlider({ images, style, interval }) {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/Header.jsx'
 import gh1 from '../assets/images/gh1.webp'
 import gh2 from '../assets/images/gh2.webp'
 import gh3 from '../assets/images/gh3.webp'
-import Carousel from '../components/Carousel'
+import Carousel from '../components/Carousel.jsx'
 
 const GuestHouseCard = [
     {

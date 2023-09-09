@@ -1,7 +1,7 @@
 import React from 'react'
-import  { DepartmentsApi, CentresApi, SchoolsApi} from '../Apis/DepartmentsApi'
-import DepartmentCard from '../components/DepartmentCard'
-import Header from '../components/Header'
+import  { DepartmentsApi, CentresApi, SchoolsApi} from '../Apis/DepartmentsApi.js'
+import DepartmentCard from '../components/DepartmentCard.jsx'
+import Header from '../components/Header.jsx'
 
 const Departments = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/about.css'
-import RankingCard from './RankingCard'
-import Ranking from '../Apis/Ranking'
+import RankingCard from './RankingCard.jsx'
+import Ranking from '../Apis/Ranking.js'
 import lionImg from "../assets/images/about1.png"
 const About = () => {
   return (
