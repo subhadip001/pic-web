@@ -20,10 +20,18 @@ import HowToReach from "./pages/HowToReach.jsx";
 import PlacementPolicy from "./components/PlacementPolicy.jsx";
 import AipcGuidlines from "./components/AipcGuidlines.jsx";
 import Forms from "./components/Forms.jsx";
+import ScrollToTop from "./pages/ScrollToTop.jsx";
+import { useScrollToTop } from 'react-router-scroll-top';
+
+
 const App = () => {
+  useScrollToTop();
   return (
     <>
-      <Routes>
+   
+  <ScrollToTop/>
+      <Routes onUpdate={() => window.scrollTo(0, 0)} >
+
         <Route path="/" element={<Home />} />
         <Route path="/message/:by" element={<Messagefull />} />
         <Route path="/administration" element={<Administration />} />
@@ -44,6 +52,7 @@ const App = () => {
       </Routes>
       <QuickLink />
       <Footer />
+ 
     </>
   );
 };

@@ -1,9 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Download from "./Download.jsx";
 import { NavLink, useParams } from "react-router-dom";
 import { FormsApi2 } from "../Apis/FormsApi.js";
 import Header from "./Header.jsx";
 const Forms = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <>
       <Header bgOn={true} />

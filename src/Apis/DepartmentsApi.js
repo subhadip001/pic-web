@@ -88,7 +88,7 @@ const DepartmentsApi = [
   {
     img: ee,
     name: "Department of Electrical Engineering",
-    link: "https://drive.google.com/file/d/1yT6I-wJc48iju2N22SOHsuGCrD1oxlOn/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1wLnlyZtnNAtuuhrHFPKst3uqyrXQVhGv/view?usp=drive_link",
   },
   {
     img: hasc,
@@ -103,7 +103,7 @@ const DepartmentsApi = [
   {
     img: hydroenegry,
     name: "Department of Hydro and Renewable Energy",
-    link: "https://drive.google.com/file/d/19ZqabdvuhyXd7z3KbYKrqaQF0DVPVdVJ/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1zZlhnOBbhPXgYfURLjYjnx9p8LGb_ypC/view?usp=drive_link",
   },
   {
     img: management,

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Download from './Download.jsx'
 import { NavLink, useParams } from 'react-router-dom'
 import FormsApi from '../Apis/FormsApi.js'
@@ -8,6 +8,9 @@ const FormComponent = () => {
     const data = FormsApi.filter(form=>{
         return form.id == id
     })
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   return (
     <>
     <Header bgOn={true}/>

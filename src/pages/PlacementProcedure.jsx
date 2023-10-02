@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header.jsx";
 import PlacementComponent from "../components/PlacementComponent.jsx";
-
 const phases = [
   {
     phaseNo: 1,
@@ -39,7 +38,9 @@ const PlacementProcedure = () => {
   const steps = [1, 2, 3];
   const isFirstStep = activeStep === 0;
   const isLastStep = activeStep === steps.length - 1;
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const handleNext = () => {
     if (!isLastStep) {
       setActiveStep(activeStep + 1);
@@ -51,7 +52,7 @@ const PlacementProcedure = () => {
       setActiveStep(activeStep - 1);
     }
   };
-
+  
   return (
     <>
       <Header bgOn={true} />
