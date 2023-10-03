@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import Header from "../components/Header.jsx";
 import AdminComponent from "../components/AdminComponent.jsx";
 import arrows from "../assets/arrows.svg";
@@ -52,6 +52,9 @@ const admins = [
   ],
 ];
 const Administration = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header bgOn={true} />

@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect} from 'react'
 import programsApi from '../Apis/programsApi.js';
 import ProgramContainer from '../components/ProgramContainer.jsx';
 import Header from '../components/Header.jsx';
 
 const Programs = () => {
     const [activeStep, setActiveStep] = useState(0);
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   const programs = ["Undergraduate programmes", "Post graduate programmes", "PhD"];
   return (
     <>

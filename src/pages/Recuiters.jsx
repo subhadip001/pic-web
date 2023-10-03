@@ -1,9 +1,12 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import RecuitersApi from '../Apis/RecuitersApi.js'
 import Header from '../components/Header.jsx'
 import Recruiters from '../components/Recruiters.jsx'
 
 const RecuitersPage= () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Header bgOn={true}/>

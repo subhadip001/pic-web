@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from '../components/Header.jsx'
 import ProgramContainer from '../components/ProgramContainer.jsx'
 import faqApi from '../Apis/FaqApi.js'
 
 const Faq = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <Header bgOn={true}/>

@@ -21,11 +21,11 @@ import PlacementPolicy from "./components/PlacementPolicy.jsx";
 import AipcGuidlines from "./components/AipcGuidlines.jsx";
 import Forms from "./components/Forms.jsx";
 import ScrollToTop from "./pages/ScrollToTop.jsx";
-import { useScrollToTop } from 'react-router-scroll-top';
+
 
 
 const App = () => {
-  useScrollToTop();
+ 
   return (
     <>
    

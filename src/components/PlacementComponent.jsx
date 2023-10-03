@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
 
 
@@ -9,7 +9,9 @@ const PlacementComponent = (props) => {
     return text.replace(/\*(.*?)\*/g, "<span class=' text-importent'>$1</span>");
    
   };
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

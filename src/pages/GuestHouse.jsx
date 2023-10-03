@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import Header from '../components/Header.jsx'
 import gh1 from '../assets/images/gh1.webp'
 import gh2 from '../assets/images/gh2.webp'
@@ -25,6 +25,9 @@ const GuestHouseCard = [
 const images = [ gh1,gh2,gh3]
 
 const GuestHouse = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Header bgOn={true}/>

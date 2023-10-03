@@ -50,7 +50,9 @@ const cardContent = [
 
 const Infrastructure = () => {
   const carouselContainerRef = useRef(null);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const imageHeight = carouselContainerRef.current.firstChild.offsetHeight;
     carouselContainerRef.current.style.height = `${imageHeight}px`;

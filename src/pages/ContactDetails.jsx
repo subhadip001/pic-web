@@ -1,10 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../components/Header.jsx";
 import picPlogo from "../assets/images/picPlogo.png";
 import linkedin from "../assets/linkedin.png";
 import teamData from "../Apis/team.js";
 
 const ContactDetails = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header bgOn={true} />

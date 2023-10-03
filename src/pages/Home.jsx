@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import MessageApi from "../Apis/MessageApi.js";
 import Message from "../components/Message.jsx";
 import About from "../components/About.jsx";
@@ -12,6 +12,9 @@ import h2 from "../assets/images/homeBanner/h2.webp";
 import h3 from "../assets/images/homeBanner/h3.webp";
 import h4 from "../assets/images/homeBanner/h4.webp";
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const imgs = [
     h1, h2, h3, h4
   ];
