@@ -88,7 +88,7 @@ const DepartmentsApi = [
   {
     img: ee,
     name: "Department of Electrical Engineering",
-    link: "https://drive.google.com/file/d/1wLnlyZtnNAtuuhrHFPKst3uqyrXQVhGv/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/17FiYHEHBOfXeinZdjUHg7I0au_xh8qP8/view",
   },
   {
     img: hasc,
