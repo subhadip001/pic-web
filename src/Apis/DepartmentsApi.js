@@ -38,7 +38,7 @@ const DepartmentsApi = [
   {
     img: archi,
     name: "Department of Architecture and Planning",
-    link: "https://drive.google.com/file/d/1q8W5cpW5BKEowYFCdQHyZqc8ZapmIo6m/view",
+    link: "https://drive.google.com/file/d/1NgjsJ3igNlKjsCz9iMUcJMFR_5PnRzoe/view?usp=drive_link",
   },
   {
     img: biosci,
@@ -187,7 +187,7 @@ const SchoolsApi = [
   {
     img: ai,
     name: "Mehta Family School of Data Science and Artificial Intelligence",
-    link: "https://www.iitr.ac.in/mfsdsai/",
+    link: "https://drive.google.com/file/d/1kjivHDOR4knuN6gxN3ZZexDjTPzeJ6O_/view?usp=drive_link",
   },
 ];
 
